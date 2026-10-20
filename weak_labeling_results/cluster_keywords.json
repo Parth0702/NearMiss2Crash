@@ -1,16 +1,429 @@
 {
   "0": [
-    "judging",
-    "minimums",
-    "approach",
-    "continue",
-    "decided"
+    "aircraft",
+    "takeoff",
+    "aileron",
+    "plane",
+    "flight"
   ],
   "1": [
+    "light",
+    "red",
+    "position",
+    "centerline",
+    "ramp"
+  ],
+  "2": [
+    "takeoff",
+    "slat",
+    "ft",
+    "checklist",
+    "speed"
+  ],
+  "3": [
+    "ft",
+    "drones",
+    "area",
+    "helicopter",
+    "uas"
+  ],
+  "4": [
+    "smell",
+    "fumes",
+    "engine",
+    "aircraft",
+    "fa"
+  ],
+  "5": [
+    "heeds",
+    "mask",
+    "masks",
+    "cockpit",
+    "aircraft"
+  ],
+  "6": [
+    "deice",
+    "truck",
+    "snow",
+    "checklist",
+    "fluid"
+  ],
+  "7": [
+    "zzz",
+    "feet",
+    "ft",
+    "crew",
+    "passenger"
+  ],
+  "8": [
+    "aircraft",
+    "safety",
+    "forward",
+    "gate",
+    "said"
+  ],
+  "9": [
+    "aircraft",
+    "tug",
+    "gear",
+    "right",
+    "driver"
+  ],
+  "10": [
+    "rvsm",
     "altitude",
-    "radio",
-    "fatigued",
-    "catch",
-    "normally"
+    "frequency",
+    "center",
+    "indicator"
+  ],
+  "11": [
+    "speed",
+    "plane",
+    "crew",
+    "event",
+    "aircraft"
+  ],
+  "12": [
+    "departure",
+    "aircraft",
+    "stall",
+    "atc",
+    "ft"
+  ],
+  "13": [
+    "gps",
+    "minutes",
+    "signal",
+    "direct",
+    "garmin"
+  ],
+  "14": [
+    "point",
+    "frequency",
+    "aircraft",
+    "fms",
+    "know"
+  ],
+  "15": [
+    "cargo",
+    "pit",
+    "hazmat",
+    "dg",
+    "weight"
+  ],
+  "16": [
+    "pilot",
+    "xxxx",
+    "hours",
+    "runway",
+    "duty"
+  ],
+  "17": [
+    "door",
+    "irs",
+    "opc",
+    "mel",
+    "crew"
+  ],
+  "18": [
+    "terrain",
+    "ladd",
+    "feet",
+    "controller",
+    "class"
+  ],
+  "19": [
+    "feet",
+    "descent",
+    "night",
+    "officer",
+    "terrain"
+  ],
+  "20": [
+    "fan",
+    "damage",
+    "aircraft",
+    "corrosion",
+    "mel"
+  ],
+  "21": [
+    "controller",
+    "approach",
+    "departure",
+    "aircraft",
+    "500"
+  ],
+  "22": [
+    "seat",
+    "aircraft",
+    "door",
+    "cockpit",
+    "chime"
+  ],
+  "23": [
+    "seats",
+    "fo",
+    "takeoff",
+    "row",
+    "fa"
+  ],
+  "24": [
+    "fuel",
+    "mel",
+    "fueler",
+    "landing",
+    "tank"
+  ],
+  "25": [
+    "emergency",
+    "checklist",
+    "bus",
+    "gate",
+    "fuel"
+  ],
+  "26": [
+    "runway",
+    "taxiway",
+    "aircraft",
+    "flight",
+    "takeoff"
+  ],
+  "27": [
+    "rudder",
+    "takeoff",
+    "device",
+    "approach",
+    "officer"
+  ],
+  "28": [
+    "engine",
+    "handle",
+    "gear",
+    "approach",
+    "circuit"
+  ],
+  "29": [
+    "gear",
+    "main",
+    "alternator",
+    "zzz1",
+    "pilot"
+  ],
+  "30": [
+    "flaps",
+    "engine",
+    "lh",
+    "flight",
+    "approach"
+  ],
+  "31": [
+    "tank",
+    "pump",
+    "phone",
+    "starter",
+    "switch"
+  ],
+  "32": [
+    "tire",
+    "throttles",
+    "pic",
+    "kts",
+    "speed"
+  ],
+  "33": [
+    "switch",
+    "rpm",
+    "takeoff",
+    "climb",
+    "thrust"
+  ],
+  "34": [
+    "strut",
+    "trim",
+    "flight",
+    "cfi",
+    "engine"
+  ],
+  "35": [
+    "cargo",
+    "xx",
+    "fuel",
+    "generator",
+    "mel"
+  ],
+  "36": [
+    "engine",
+    "student",
+    "gear",
+    "aircraft",
+    "pilot"
+  ],
+  "37": [
+    "plane",
+    "landing",
+    "warning",
+    "engine",
+    "nose"
+  ],
+  "38": [
+    "aircraft",
+    "restricted",
+    "zlc",
+    "moa",
+    "sector"
+  ],
+  "39": [
+    "b737",
+    "radar",
+    "aircraft",
+    "weather",
+    "700"
+  ],
+  "40": [
+    "pressure",
+    "issue",
+    "bus",
+    "pack",
+    "message"
+  ],
+  "41": [
+    "switch",
+    "hydraulic",
+    "door",
+    "leak",
+    "captain"
+  ],
+  "42": [
+    "engine",
+    "throttle",
+    "fuel",
+    "airplane",
+    "thrust"
+  ],
+  "43": [
+    "start",
+    "fuel",
+    "oil",
+    "engine",
+    "fo"
+  ],
+  "44": [
+    "start",
+    "airport",
+    "maintenance",
+    "left",
+    "hydraulic"
+  ],
+  "45": [
+    "oil",
+    "control",
+    "fluid",
+    "runway",
+    "engine"
+  ],
+  "46": [
+    "wind",
+    "fuel",
+    "weather",
+    "aircraft",
+    "kts"
+  ],
+  "47": [
+    "ft",
+    "terrain",
+    "class",
+    "canyon",
+    "12"
+  ],
+  "48": [
+    "fl240",
+    "clearance",
+    "speed",
+    "ft",
+    "center"
+  ],
+  "49": [
+    "vnav",
+    "traffic",
+    "sid",
+    "change",
+    "msl"
+  ],
+  "50": [
+    "aircraft",
+    "cub",
+    "altitude",
+    "g200",
+    "n90"
+  ],
+  "51": [
+    "tower",
+    "arrival",
+    "fuel",
+    "departure",
+    "zzz"
+  ],
+  "52": [
+    "course",
+    "aircraft",
+    "frequency",
+    "ft",
+    "visual"
+  ],
+  "53": [
+    "departure",
+    "feet",
+    "arrival",
+    "ft",
+    "approach"
+  ],
+  "54": [
+    "atc",
+    "tower",
+    "mva",
+    "aircraft",
+    "radar"
+  ],
+  "55": [
+    "frequency",
+    "runway",
+    "safety",
+    "zzzz",
+    "departure"
+  ],
+  "56": [
+    "plane",
+    "arrival",
+    "taxiway",
+    "aircraft",
+    "xxr"
+  ],
+  "57": [
+    "las",
+    "operations",
+    "traffic",
+    "sight",
+    "altitude"
+  ],
+  "58": [
+    "tower",
+    "aircraft",
+    "heading",
+    "training",
+    "flight"
+  ],
+  "59": [
+    "helicopter",
+    "aircraft",
+    "plane",
+    "tower",
+    "runway"
+  ],
+  "60": [
+    "landing",
+    "center",
+    "helicopter",
+    "airspace",
+    "flight"
   ]
 }

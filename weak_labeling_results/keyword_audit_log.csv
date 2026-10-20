@@ -1,40 +1,40 @@
 keyword,target_class,total_matches,sample_count,agreed_count,agreement_ratio,status
-checklist,Skill-Based Error,1,1,0,0.0,DISCARD (Ratio: 0.00 < 0.80)
-forgot,Skill-Based Error,1,1,1,1.0,PASS
-omitted,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
-lapsed,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
-routine,Skill-Based Error,1,1,1,1.0,PASS
-habit,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
-inadvertent,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
-slip,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
-memory,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
-missed call,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
-misread,Skill-Based Error,1,1,0,0.0,DISCARD (Ratio: 0.00 < 0.80)
-decided,Decision Error,2,2,2,1.0,PASS
-elected,Decision Error,0,0,0,0.0,FAIL (No Matches)
-chose,Decision Error,1,1,1,1.0,PASS
-continued,Decision Error,0,0,0,0.0,FAIL (No Matches)
-judgment,Decision Error,0,0,0,0.0,FAIL (No Matches)
-risk,Decision Error,0,0,0,0.0,FAIL (No Matches)
-weather,Decision Error,1,1,1,1.0,PASS
-visual approach,Decision Error,1,1,1,1.0,PASS
-divert,Decision Error,0,0,0,0.0,FAIL (No Matches)
-below minimums,Decision Error,1,1,1,1.0,PASS
-knowingly,Violation,1,1,1,1.0,PASS
-intentionally,Violation,1,1,1,1.0,PASS
-skipped,Violation,1,1,1,1.0,PASS
-unauthorized,Violation,0,0,0,0.0,FAIL (No Matches)
-rule,Violation,1,1,1,1.0,PASS
-sop,Violation,0,0,0,0.0,FAIL (No Matches)
-regulation,Violation,0,0,0,0.0,FAIL (No Matches)
-sterile cockpit,Violation,1,1,1,1.0,PASS
-exceeded,Violation,1,1,1,1.0,PASS
-disorientation,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
-spatial,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
-illusion,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+checklist,Skill-Based Error,5123,15,8,0.533,DISCARD (Ratio: 0.53 < 0.80)
+forgot,Skill-Based Error,664,15,9,0.6,DISCARD (Ratio: 0.60 < 0.80)
+omitted,Skill-Based Error,73,15,11,0.733,DISCARD (Ratio: 0.73 < 0.80)
+lapsed,Skill-Based Error,12,12,8,0.667,DISCARD (Ratio: 0.67 < 0.80)
+routine,Skill-Based Error,655,15,9,0.6,DISCARD (Ratio: 0.60 < 0.80)
+habit,Skill-Based Error,245,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+inadvertent,Skill-Based Error,158,15,9,0.6,DISCARD (Ratio: 0.60 < 0.80)
+slip,Skill-Based Error,193,15,9,0.6,DISCARD (Ratio: 0.60 < 0.80)
+memory,Skill-Based Error,578,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+missed call,Skill-Based Error,6,6,4,0.667,DISCARD (Ratio: 0.67 < 0.80)
+misread,Skill-Based Error,101,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+decided,Decision Error,4675,15,14,0.933,PASS
+elected,Decision Error,2240,15,14,0.933,PASS
+chose,Decision Error,712,15,15,1.0,PASS
+continued,Decision Error,8723,15,15,1.0,PASS
+judgment,Decision Error,347,15,15,1.0,PASS
+risk,Decision Error,1128,15,14,0.933,PASS
+weather,Decision Error,5093,15,15,1.0,PASS
+visual approach,Decision Error,2838,15,15,1.0,PASS
+divert,Decision Error,1707,15,14,0.933,PASS
+below minimums,Decision Error,54,15,15,1.0,PASS
+knowingly,Violation,55,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+intentionally,Violation,147,15,4,0.267,DISCARD (Ratio: 0.27 < 0.80)
+skipped,Violation,60,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+unauthorized,Violation,56,15,8,0.533,DISCARD (Ratio: 0.53 < 0.80)
+rule,Violation,276,15,4,0.267,DISCARD (Ratio: 0.27 < 0.80)
+sop,Violation,778,15,5,0.333,DISCARD (Ratio: 0.33 < 0.80)
+regulation,Violation,83,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+sterile cockpit,Violation,99,15,4,0.267,DISCARD (Ratio: 0.27 < 0.80)
+exceeded,Violation,522,15,1,0.067,DISCARD (Ratio: 0.07 < 0.80)
+disorientation,Perceptual Error,41,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+spatial,Perceptual Error,22,15,6,0.4,DISCARD (Ratio: 0.40 < 0.80)
+illusion,Perceptual Error,52,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
 misjudged distance,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
-visibility,Perceptual Error,1,1,1,1.0,PASS
-flare,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
-glare,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
-featureless terrain,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
-depth perception,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+visibility,Perceptual Error,1594,15,5,0.333,DISCARD (Ratio: 0.33 < 0.80)
+flare,Perceptual Error,452,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+glare,Perceptual Error,144,15,7,0.467,DISCARD (Ratio: 0.47 < 0.80)
+featureless terrain,Perceptual Error,1,1,0,0.0,DISCARD (Ratio: 0.00 < 0.80)
+depth perception,Perceptual Error,17,15,9,0.6,DISCARD (Ratio: 0.60 < 0.80)

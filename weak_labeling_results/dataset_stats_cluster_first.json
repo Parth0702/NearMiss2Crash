@@ -1,33 +1,33 @@
 {
   "strategy": "cluster_first",
-  "total_samples": 10,
-  "train_samples": 7,
-  "val_samples": 1,
-  "test_samples": 2,
+  "total_samples": 5038,
+  "train_samples": 3526,
+  "val_samples": 504,
+  "test_samples": 1008,
   "imbalance_report": [
     {
       "HFACS Class": "Skill-Based Error",
-      "Train": "1 (14.3%)",
-      "Validation": "0 (0.0%)",
-      "Test": "0 (0.0%)"
+      "Train": "1101 (31.2%)",
+      "Validation": "158 (31.3%)",
+      "Test": "315 (31.2%)"
     },
     {
       "HFACS Class": "Decision Error",
-      "Train": "2 (28.6%)",
-      "Validation": "0 (0.0%)",
-      "Test": "1 (50.0%)"
+      "Train": "1052 (29.8%)",
+      "Validation": "150 (29.8%)",
+      "Test": "301 (29.9%)"
     },
     {
       "HFACS Class": "Violation",
-      "Train": "2 (28.6%)",
-      "Validation": "0 (0.0%)",
-      "Test": "0 (0.0%)"
+      "Train": "451 (12.8%)",
+      "Validation": "64 (12.7%)",
+      "Test": "128 (12.7%)"
     },
     {
       "HFACS Class": "Perceptual Error",
-      "Train": "1 (14.3%)",
-      "Validation": "0 (0.0%)",
-      "Test": "0 (0.0%)"
+      "Train": "448 (12.7%)",
+      "Validation": "64 (12.7%)",
+      "Test": "128 (12.7%)"
     }
   ]
 }

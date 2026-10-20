@@ -45,9 +45,16 @@ except ImportError:
 try:
     import hdbscan
     HDBSCAN_AVAILABLE = True
+    HDBSCAN_CLASS = hdbscan.HDBSCAN
 except ImportError:
-    HDBSCAN_AVAILABLE = False
-    print("[WARNING] hdbscan not installed. Install with: pip install hdbscan")
+    try:
+        from sklearn.cluster import HDBSCAN as sklearn_HDBSCAN
+        HDBSCAN_AVAILABLE = True
+        HDBSCAN_CLASS = sklearn_HDBSCAN
+    except ImportError:
+        HDBSCAN_AVAILABLE = False
+        HDBSCAN_CLASS = None
+        print("[WARNING] hdbscan not installed. Install with: pip install hdbscan")
 
 
 DEFAULT_BERT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
@@ -139,7 +146,7 @@ class ClusterBasedWeakLabeler:
 
         if self.clusterer is None:
             print(f"[INFO] Applying HDBSCAN (min_cluster_size={self.min_cluster_size}, min_samples={self.min_samples})")
-            self.clusterer = hdbscan.HDBSCAN(
+            self.clusterer = HDBSCAN_CLASS(
                 min_cluster_size=self.min_cluster_size,
                 min_samples=self.min_samples,
                 metric='euclidean',

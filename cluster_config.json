@@ -9,36 +9,410 @@
   "clusters": {
     "0": {
       "keywords": [
-        "altitude",
-        "radio",
-        "fatigued",
-        "catch",
-        "normally"
+        "operating",
+        "airplane",
+        "engine",
+        "damage",
+        "msl"
       ],
       "hfacs_class": "Skill-Based Error",
       "description": "Fatigue and missed communication / altitude oversight"
     },
     "1": {
       "keywords": [
-        "skipped",
-        "pressurization",
-        "running",
-        "schedule",
-        "knowingly"
+        "routes",
+        "ft",
+        "wind",
+        "airspace",
+        "zzz"
       ],
       "hfacs_class": "Violation",
       "description": "Intentional non-compliance with checklist"
     },
     "2": {
       "keywords": [
-        "approach",
-        "decided",
-        "continue",
-        "judging",
-        "minimums"
+        "runway",
+        "xx",
+        "radio",
+        "time",
+        "day"
       ],
       "hfacs_class": "Decision Error",
       "description": "Intentional decision to continue visual approach in adverse weather"
+    },
+    "3": {
+      "keywords": [
+        "rc",
+        "center",
+        "runway",
+        "myr",
+        "aircraft"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "4": {
+      "keywords": [
+        "airport",
+        "zzzzz",
+        "approach",
+        "500",
+        "000"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "5": {
+      "keywords": [
+        "engine",
+        "tower",
+        "approach",
+        "crew",
+        "center"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "6": {
+      "keywords": [
+        "fuel",
+        "start",
+        "qrh",
+        "engine",
+        "failure"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "7": {
+      "keywords": [
+        "trim",
+        "door",
+        "problem",
+        "tower",
+        "flight"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "8": {
+      "keywords": [
+        "smoke",
+        "zzz",
+        "maintenance",
+        "lavatory",
+        "briefed"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "9": {
+      "keywords": [
+        "smoke",
+        "mx",
+        "apu",
+        "gate",
+        "like"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "10": {
+      "keywords": [
+        "fod",
+        "overheat",
+        "engine",
+        "clearance",
+        "supry"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "11": {
+      "keywords": [
+        "date",
+        "hydraulic",
+        "maintenance",
+        "feet",
+        "deferred"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "12": {
+      "keywords": [
+        "electrical",
+        "power",
+        "left",
+        "cockpit",
+        "turned"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "13": {
+      "keywords": [
+        "bus",
+        "light",
+        "power",
+        "engine",
+        "landing"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "14": {
+      "keywords": [
+        "balloon",
+        "pilot",
+        "flaps",
+        "orchard",
+        "captain"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "15": {
+      "keywords": [
+        "brakes",
+        "said",
+        "log",
+        "don",
+        "just"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "16": {
+      "keywords": [
+        "captain",
+        "officer",
+        "time",
+        "airspeed",
+        "odor"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "17": {
+      "keywords": [
+        "approach",
+        "systems",
+        "vpi",
+        "arrival",
+        "mode"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "18": {
+      "keywords": [
+        "window",
+        "speed",
+        "pitot",
+        "apu",
+        "engines"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "19": {
+      "keywords": [
+        "turbulence",
+        "autopilot",
+        "flight",
+        "dispatcher",
+        "maintenance"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "20": {
+      "keywords": [
+        "panel",
+        "gear",
+        "ipad",
+        "cords",
+        "flight"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "21": {
+      "keywords": [
+        "disks",
+        "flight",
+        "nav",
+        "data",
+        "unit"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "22": {
+      "keywords": [
+        "passenger",
+        "weren",
+        "safety",
+        "water",
+        "kits"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "23": {
+      "keywords": [
+        "mask",
+        "nose",
+        "flight",
+        "passenger",
+        "area"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "24": {
+      "keywords": [
+        "aircraft",
+        "traffic",
+        "feet",
+        "active",
+        "moderate"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "25": {
+      "keywords": [
+        "stop",
+        "truck",
+        "line",
+        "sfo",
+        "engine"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "26": {
+      "keywords": [
+        "aircraft",
+        "day",
+        "departure",
+        "supertug",
+        "heading"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "27": {
+      "keywords": [
+        "target",
+        "ra",
+        "aircraft",
+        "traffic",
+        "atc"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "28": {
+      "keywords": [
+        "tfr",
+        "moa",
+        "aircraft",
+        "det",
+        "did"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "29": {
+      "keywords": [
+        "published",
+        "given",
+        "runway",
+        "hold",
+        "approach"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "30": {
+      "keywords": [
+        "aircraft",
+        "int",
+        "airport",
+        "tower",
+        "separation"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "31": {
+      "keywords": [
+        "tracon",
+        "lsv",
+        "aircraft",
+        "heading",
+        "fly"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "32": {
+      "keywords": [
+        "descent",
+        "vertical",
+        "captain",
+        "atc",
+        "fo"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "33": {
+      "keywords": [
+        "speed",
+        "brdje3",
+        "altitude",
+        "arrival",
+        "kts"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "34": {
+      "keywords": [
+        "flaps",
+        "ramp",
+        "braking",
+        "runway",
+        "aircraft"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "35": {
+      "keywords": [
+        "taxiway",
+        "ramp",
+        "diagram",
+        "short",
+        "aircraft"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
+    },
+    "36": {
+      "keywords": [
+        "difficult",
+        "gate",
+        "construction",
+        "gap",
+        "taxiway"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Manually assign to one HFACS class (Skill-Based Error / Decision Error / Violation / Perceptual Error)"
     }
   }
 }

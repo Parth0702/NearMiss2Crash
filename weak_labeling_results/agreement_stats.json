@@ -1,34 +1,34 @@
 {
   "agreement_stats": {
-    "total_compared": 10,
-    "agree": 1,
-    "disagree": 9,
+    "total_compared": 5038,
+    "agree": 783,
+    "disagree": 4255,
     "keyword_only": 0,
     "cluster_only": 0,
     "unlabeled_both": 0,
-    "agreement_rate": 10.0
+    "agreement_rate": 15.54188169908694
   },
   "per_class": {
     "Skill-Based Error": {
-      "keyword_count": 1,
-      "cluster_count": 4,
-      "agree_count": 0,
-      "agree_rate": 0.0
+      "keyword_count": 1500,
+      "cluster_count": 157,
+      "agree_count": 76,
+      "agree_rate": 5.066666666666666
     },
     "Decision Error": {
-      "keyword_count": 3,
+      "keyword_count": 1500,
+      "cluster_count": 72,
+      "agree_count": 29,
+      "agree_rate": 1.9333333333333333
+    },
+    "Violation": {
+      "keyword_count": 680,
       "cluster_count": 0,
       "agree_count": 0,
       "agree_rate": 0.0
     },
-    "Violation": {
-      "keyword_count": 2,
-      "cluster_count": 6,
-      "agree_count": 1,
-      "agree_rate": 50.0
-    },
     "Perceptual Error": {
-      "keyword_count": 1,
+      "keyword_count": 658,
       "cluster_count": 0,
       "agree_count": 0,
       "agree_rate": 0.0

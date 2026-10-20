@@ -1,10 +1,682 @@
 {
   "metadata": {
-    "n_neighbors": 3,
+    "n_neighbors": 15,
     "min_dist": 0.1,
-    "min_cluster_size": 3,
-    "min_samples": 1,
+    "min_cluster_size": 20,
+    "min_samples": 5,
     "random_state": 42
   },
-  "clusters": {}
+  "clusters": {
+    "0": {
+      "keywords": [
+        "aircraft",
+        "takeoff",
+        "aileron",
+        "plane",
+        "flight"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 0 automatically mapped via semantic seed keyword overlap"
+    },
+    "1": {
+      "keywords": [
+        "light",
+        "red",
+        "position",
+        "centerline",
+        "ramp"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 1 automatically mapped via semantic seed keyword overlap"
+    },
+    "2": {
+      "keywords": [
+        "takeoff",
+        "slat",
+        "ft",
+        "checklist",
+        "speed"
+      ],
+      "hfacs_class": "Skill-Based Error",
+      "description": "Cluster 2 automatically mapped via semantic seed keyword overlap"
+    },
+    "3": {
+      "keywords": [
+        "ft",
+        "drones",
+        "area",
+        "helicopter",
+        "uas"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 3 automatically mapped via semantic seed keyword overlap"
+    },
+    "4": {
+      "keywords": [
+        "smell",
+        "fumes",
+        "engine",
+        "aircraft",
+        "fa"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 4 automatically mapped via semantic seed keyword overlap"
+    },
+    "5": {
+      "keywords": [
+        "heeds",
+        "mask",
+        "masks",
+        "cockpit",
+        "aircraft"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 5 automatically mapped via semantic seed keyword overlap"
+    },
+    "6": {
+      "keywords": [
+        "deice",
+        "truck",
+        "snow",
+        "checklist",
+        "fluid"
+      ],
+      "hfacs_class": "Skill-Based Error",
+      "description": "Cluster 6 automatically mapped via semantic seed keyword overlap"
+    },
+    "7": {
+      "keywords": [
+        "zzz",
+        "feet",
+        "ft",
+        "crew",
+        "passenger"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 7 automatically mapped via semantic seed keyword overlap"
+    },
+    "8": {
+      "keywords": [
+        "aircraft",
+        "safety",
+        "forward",
+        "gate",
+        "said"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 8 automatically mapped via semantic seed keyword overlap"
+    },
+    "9": {
+      "keywords": [
+        "aircraft",
+        "tug",
+        "gear",
+        "right",
+        "driver"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 9 automatically mapped via semantic seed keyword overlap"
+    },
+    "10": {
+      "keywords": [
+        "rvsm",
+        "altitude",
+        "frequency",
+        "center",
+        "indicator"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 10 automatically mapped via semantic seed keyword overlap"
+    },
+    "11": {
+      "keywords": [
+        "speed",
+        "plane",
+        "crew",
+        "event",
+        "aircraft"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 11 automatically mapped via semantic seed keyword overlap"
+    },
+    "12": {
+      "keywords": [
+        "departure",
+        "aircraft",
+        "stall",
+        "atc",
+        "ft"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 12 automatically mapped via semantic seed keyword overlap"
+    },
+    "13": {
+      "keywords": [
+        "gps",
+        "minutes",
+        "signal",
+        "direct",
+        "garmin"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 13 automatically mapped via semantic seed keyword overlap"
+    },
+    "14": {
+      "keywords": [
+        "point",
+        "frequency",
+        "aircraft",
+        "fms",
+        "know"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 14 automatically mapped via semantic seed keyword overlap"
+    },
+    "15": {
+      "keywords": [
+        "cargo",
+        "pit",
+        "hazmat",
+        "dg",
+        "weight"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 15 automatically mapped via semantic seed keyword overlap"
+    },
+    "16": {
+      "keywords": [
+        "pilot",
+        "xxxx",
+        "hours",
+        "runway",
+        "duty"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 16 automatically mapped via semantic seed keyword overlap"
+    },
+    "17": {
+      "keywords": [
+        "door",
+        "irs",
+        "opc",
+        "mel",
+        "crew"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 17 automatically mapped via semantic seed keyword overlap"
+    },
+    "18": {
+      "keywords": [
+        "terrain",
+        "ladd",
+        "feet",
+        "controller",
+        "class"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 18 automatically mapped via semantic seed keyword overlap"
+    },
+    "19": {
+      "keywords": [
+        "feet",
+        "descent",
+        "night",
+        "officer",
+        "terrain"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 19 automatically mapped via semantic seed keyword overlap"
+    },
+    "20": {
+      "keywords": [
+        "fan",
+        "damage",
+        "aircraft",
+        "corrosion",
+        "mel"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 20 automatically mapped via semantic seed keyword overlap"
+    },
+    "21": {
+      "keywords": [
+        "controller",
+        "approach",
+        "departure",
+        "aircraft",
+        "500"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 21 automatically mapped via semantic seed keyword overlap"
+    },
+    "22": {
+      "keywords": [
+        "seat",
+        "aircraft",
+        "door",
+        "cockpit",
+        "chime"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 22 automatically mapped via semantic seed keyword overlap"
+    },
+    "23": {
+      "keywords": [
+        "seats",
+        "fo",
+        "takeoff",
+        "row",
+        "fa"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 23 automatically mapped via semantic seed keyword overlap"
+    },
+    "24": {
+      "keywords": [
+        "fuel",
+        "mel",
+        "fueler",
+        "landing",
+        "tank"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 24 automatically mapped via semantic seed keyword overlap"
+    },
+    "25": {
+      "keywords": [
+        "emergency",
+        "checklist",
+        "bus",
+        "gate",
+        "fuel"
+      ],
+      "hfacs_class": "Skill-Based Error",
+      "description": "Cluster 25 automatically mapped via semantic seed keyword overlap"
+    },
+    "26": {
+      "keywords": [
+        "runway",
+        "taxiway",
+        "aircraft",
+        "flight",
+        "takeoff"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 26 automatically mapped via semantic seed keyword overlap"
+    },
+    "27": {
+      "keywords": [
+        "rudder",
+        "takeoff",
+        "device",
+        "approach",
+        "officer"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 27 automatically mapped via semantic seed keyword overlap"
+    },
+    "28": {
+      "keywords": [
+        "engine",
+        "handle",
+        "gear",
+        "approach",
+        "circuit"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 28 automatically mapped via semantic seed keyword overlap"
+    },
+    "29": {
+      "keywords": [
+        "gear",
+        "main",
+        "alternator",
+        "zzz1",
+        "pilot"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 29 automatically mapped via semantic seed keyword overlap"
+    },
+    "30": {
+      "keywords": [
+        "flaps",
+        "engine",
+        "lh",
+        "flight",
+        "approach"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 30 automatically mapped via semantic seed keyword overlap"
+    },
+    "31": {
+      "keywords": [
+        "tank",
+        "pump",
+        "phone",
+        "starter",
+        "switch"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 31 automatically mapped via semantic seed keyword overlap"
+    },
+    "32": {
+      "keywords": [
+        "tire",
+        "throttles",
+        "pic",
+        "kts",
+        "speed"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 32 automatically mapped via semantic seed keyword overlap"
+    },
+    "33": {
+      "keywords": [
+        "switch",
+        "rpm",
+        "takeoff",
+        "climb",
+        "thrust"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 33 automatically mapped via semantic seed keyword overlap"
+    },
+    "34": {
+      "keywords": [
+        "strut",
+        "trim",
+        "flight",
+        "cfi",
+        "engine"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 34 automatically mapped via semantic seed keyword overlap"
+    },
+    "35": {
+      "keywords": [
+        "cargo",
+        "xx",
+        "fuel",
+        "generator",
+        "mel"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 35 automatically mapped via semantic seed keyword overlap"
+    },
+    "36": {
+      "keywords": [
+        "engine",
+        "student",
+        "gear",
+        "aircraft",
+        "pilot"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 36 automatically mapped via semantic seed keyword overlap"
+    },
+    "37": {
+      "keywords": [
+        "plane",
+        "landing",
+        "warning",
+        "engine",
+        "nose"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 37 automatically mapped via semantic seed keyword overlap"
+    },
+    "38": {
+      "keywords": [
+        "aircraft",
+        "restricted",
+        "zlc",
+        "moa",
+        "sector"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 38 automatically mapped via semantic seed keyword overlap"
+    },
+    "39": {
+      "keywords": [
+        "b737",
+        "radar",
+        "aircraft",
+        "weather",
+        "700"
+      ],
+      "hfacs_class": "Decision Error",
+      "description": "Cluster 39 automatically mapped via semantic seed keyword overlap"
+    },
+    "40": {
+      "keywords": [
+        "pressure",
+        "issue",
+        "bus",
+        "pack",
+        "message"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 40 automatically mapped via semantic seed keyword overlap"
+    },
+    "41": {
+      "keywords": [
+        "switch",
+        "hydraulic",
+        "door",
+        "leak",
+        "captain"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 41 automatically mapped via semantic seed keyword overlap"
+    },
+    "42": {
+      "keywords": [
+        "engine",
+        "throttle",
+        "fuel",
+        "airplane",
+        "thrust"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 42 automatically mapped via semantic seed keyword overlap"
+    },
+    "43": {
+      "keywords": [
+        "start",
+        "fuel",
+        "oil",
+        "engine",
+        "fo"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 43 automatically mapped via semantic seed keyword overlap"
+    },
+    "44": {
+      "keywords": [
+        "start",
+        "airport",
+        "maintenance",
+        "left",
+        "hydraulic"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 44 automatically mapped via semantic seed keyword overlap"
+    },
+    "45": {
+      "keywords": [
+        "oil",
+        "control",
+        "fluid",
+        "runway",
+        "engine"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 45 automatically mapped via semantic seed keyword overlap"
+    },
+    "46": {
+      "keywords": [
+        "wind",
+        "fuel",
+        "weather",
+        "aircraft",
+        "kts"
+      ],
+      "hfacs_class": "Decision Error",
+      "description": "Cluster 46 automatically mapped via semantic seed keyword overlap"
+    },
+    "47": {
+      "keywords": [
+        "ft",
+        "terrain",
+        "class",
+        "canyon",
+        "12"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 47 automatically mapped via semantic seed keyword overlap"
+    },
+    "48": {
+      "keywords": [
+        "fl240",
+        "clearance",
+        "speed",
+        "ft",
+        "center"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 48 automatically mapped via semantic seed keyword overlap"
+    },
+    "49": {
+      "keywords": [
+        "vnav",
+        "traffic",
+        "sid",
+        "change",
+        "msl"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 49 automatically mapped via semantic seed keyword overlap"
+    },
+    "50": {
+      "keywords": [
+        "aircraft",
+        "cub",
+        "altitude",
+        "g200",
+        "n90"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 50 automatically mapped via semantic seed keyword overlap"
+    },
+    "51": {
+      "keywords": [
+        "tower",
+        "arrival",
+        "fuel",
+        "departure",
+        "zzz"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 51 automatically mapped via semantic seed keyword overlap"
+    },
+    "52": {
+      "keywords": [
+        "course",
+        "aircraft",
+        "frequency",
+        "ft",
+        "visual"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 52 automatically mapped via semantic seed keyword overlap"
+    },
+    "53": {
+      "keywords": [
+        "departure",
+        "feet",
+        "arrival",
+        "ft",
+        "approach"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 53 automatically mapped via semantic seed keyword overlap"
+    },
+    "54": {
+      "keywords": [
+        "atc",
+        "tower",
+        "mva",
+        "aircraft",
+        "radar"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 54 automatically mapped via semantic seed keyword overlap"
+    },
+    "55": {
+      "keywords": [
+        "frequency",
+        "runway",
+        "safety",
+        "zzzz",
+        "departure"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 55 automatically mapped via semantic seed keyword overlap"
+    },
+    "56": {
+      "keywords": [
+        "plane",
+        "arrival",
+        "taxiway",
+        "aircraft",
+        "xxr"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 56 automatically mapped via semantic seed keyword overlap"
+    },
+    "57": {
+      "keywords": [
+        "las",
+        "operations",
+        "traffic",
+        "sight",
+        "altitude"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 57 automatically mapped via semantic seed keyword overlap"
+    },
+    "58": {
+      "keywords": [
+        "tower",
+        "aircraft",
+        "heading",
+        "training",
+        "flight"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 58 automatically mapped via semantic seed keyword overlap"
+    },
+    "59": {
+      "keywords": [
+        "helicopter",
+        "aircraft",
+        "plane",
+        "tower",
+        "runway"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 59 automatically mapped via semantic seed keyword overlap"
+    },
+    "60": {
+      "keywords": [
+        "landing",
+        "center",
+        "helicopter",
+        "airspace",
+        "flight"
+      ],
+      "hfacs_class": "Unlabeled",
+      "description": "Cluster 60 automatically mapped via semantic seed keyword overlap"
+    }
+  }
 }
