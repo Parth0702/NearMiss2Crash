@@ -1,0 +1,14 @@
+Model: logistic_regression (Trained on asrs_full.csv, N=17636)
+Held-out Test Macro-F1: 0.4104
+Accuracy: 0.8519
+
+                   precision    recall  f1-score   support
+
+   Decision Error       0.85      0.99      0.92      3576
+ Perceptual Error       0.71      0.08      0.14       131
+Skill-Based Error       0.84      0.36      0.50       567
+        Violation       0.75      0.04      0.08       136
+
+         accuracy                           0.85      4410
+        macro avg       0.79      0.37      0.41      4410
+     weighted avg       0.84      0.85      0.81      4410

@@ -1,0 +1,14 @@
+Model: random_forest (Trained on asrs_full.csv, N=17636)
+Held-out Test Macro-F1: 0.2346
+Accuracy: 0.8136
+
+                   precision    recall  f1-score   support
+
+   Decision Error       0.81      1.00      0.90      3576
+ Perceptual Error       0.00      0.00      0.00       131
+Skill-Based Error       1.00      0.02      0.04       567
+        Violation       0.00      0.00      0.00       136
+
+         accuracy                           0.81      4410
+        macro avg       0.45      0.26      0.23      4410
+     weighted avg       0.79      0.81      0.73      4410

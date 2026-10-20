@@ -1,0 +1,8 @@
+report_id,text,keyword_label,cluster_label,label
+A5,"During taxi I forgot to switch to ground frequency after landing, a routine step I usually do automatically.",Skill-Based Error,Violation,Skill-Based Error
+A6,"I chose to depart despite a known minor hydraulic warning, believing it was not critical.",Decision Error,Violation,Decision Error
+A7,"I intentionally exceeded the sterile cockpit rule by discussing unrelated topics below 10,000 ft.",Violation,Skill-Based Error,Violation
+A8,In heavy rain I misread the runway edge lights and briefly drifted off centerline.,Unlabeled,Skill-Based Error,Unlabeled
+A10,"I decided to continue the approach below minimums, judging I could see enough of the runway.",Decision Error,Skill-Based Error,Decision Error
+A3,I knowingly skipped the checklist item for cabin pressurization because we were running behind schedule.,Violation,Violation,Violation
+A4,I misjudged the distance to the runway threshold in low visibility and flared too early.,Perceptual Error,Skill-Based Error,Perceptual Error

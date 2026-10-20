@@ -1,0 +1,92 @@
+{
+  "logistic_regression": {
+    "val_f1_importance": {
+      "TF-IDF: ngram_range": 0.007072056722187385,
+      "TF-IDF: max_features": 0.02595918674841249,
+      "TF-IDF: sublinear_tf": 6.684614787586287e-30,
+      "TF-IDF: min_df": 0.07299348039665003,
+      "TF-IDF: max_df": 0.0016634864196106204,
+      "Clf: C_log10": 0.8932601282196208,
+      "Clf: class_weight": 0.0,
+      "Clf: penalty": 6.684614787586287e-30
+    },
+    "overfitting_gap_importance": {
+      "TF-IDF: ngram_range": 0.03724799687674889,
+      "TF-IDF: max_features": 0.32157996651409143,
+      "TF-IDF: sublinear_tf": 0.0,
+      "TF-IDF: min_df": 0.023179164591362794,
+      "TF-IDF: max_df": 0.0061429836197813455,
+      "Clf: C_log10": 0.45743878248417674,
+      "Clf: class_weight": 0.0,
+      "Clf: penalty": 0.0
+    }
+  },
+  "svm": {
+    "val_f1_importance": {
+      "TF-IDF: ngram_range": 0.06624295284804772,
+      "TF-IDF: max_features": 0.03270330421426693,
+      "TF-IDF: sublinear_tf": 0.0,
+      "TF-IDF: min_df": 0.0025405195659169754,
+      "TF-IDF: max_df": 0.17695181290655812,
+      "Clf: C_log10": 0.9011977188523667,
+      "Clf: class_weight": 3.609017006139365e-30,
+      "Clf: loss": 0.0
+    },
+    "overfitting_gap_importance": {
+      "TF-IDF: ngram_range": 0.04704985171414281,
+      "TF-IDF: max_features": 0.42656156288253194,
+      "TF-IDF: sublinear_tf": 5.266860076350105e-30,
+      "TF-IDF: min_df": 0.0793025695954692,
+      "TF-IDF: max_df": 0.016694531590117634,
+      "Clf: C_log10": 0.10190065119416174,
+      "Clf: class_weight": 4.721265222182211e-30,
+      "Clf: loss": 5.266860076350105e-30
+    }
+  },
+  "random_forest": {
+    "val_f1_importance": {
+      "TF-IDF: ngram_range": 0.0024876625353933758,
+      "TF-IDF: max_features": 0.05763519574063342,
+      "TF-IDF: sublinear_tf": 0.0,
+      "TF-IDF: min_df": 0.004921387166152691,
+      "TF-IDF: max_df": 0.037950779136327877,
+      "Clf: n_estimators": 0.0,
+      "Clf: max_depth": 0.3648257565942964,
+      "Clf: min_samples_split": 0.019948286878793974,
+      "Clf: min_samples_leaf": 0.09340988326556081,
+      "Clf: max_features": 0.42952283711263056
+    },
+    "overfitting_gap_importance": {
+      "TF-IDF: ngram_range": 0.00016205293322649368,
+      "TF-IDF: max_features": 0.018410352182391374,
+      "TF-IDF: sublinear_tf": 0.0,
+      "TF-IDF: min_df": 0.0024144348386498544,
+      "TF-IDF: max_df": 0.018344590508110103,
+      "Clf: n_estimators": 0.0,
+      "Clf: max_depth": 0.12454277719407764,
+      "Clf: min_samples_split": 0.04896529729963742,
+      "Clf: min_samples_leaf": 0.009733864351242088,
+      "Clf: max_features": 0.8087306803721854
+    }
+  },
+  "naive_bayes": {
+    "val_f1_importance": {
+      "TF-IDF: ngram_range": 0.04222387973158753,
+      "TF-IDF: max_features": 0.07565674114502742,
+      "TF-IDF: sublinear_tf": 0.0,
+      "TF-IDF: min_df": 0.06259123604214425,
+      "TF-IDF: max_df": 0.012283736389093785,
+      "Clf: alpha_log10": 0.1722422475637264,
+      "Clf: fit_prior": 0.003026235062155382
+    },
+    "overfitting_gap_importance": {
+      "TF-IDF: ngram_range": 0.31617291346230697,
+      "TF-IDF: max_features": 0.6654727636830953,
+      "TF-IDF: sublinear_tf": 0.0,
+      "TF-IDF: min_df": 0.03732094410130441,
+      "TF-IDF: max_df": 0.0533465460733805,
+      "Clf: alpha_log10": 0.13605626031490375,
+      "Clf: fit_prior": 0.03701510157125787
+    }
+  }
+}

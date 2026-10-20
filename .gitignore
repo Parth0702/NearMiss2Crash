@@ -1,0 +1,23 @@
+# Python & Environment
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Antigravity IDE & System
+.gemini/
+.system_generated/
+
+# Large Datasets and Files (>100MB limit for GitHub)
+ntsb dataset/archive.zip
+ntsb dataset/archive/
+test_cp1252.csv
+test_latin-1.csv
+
+# Large Model Checkpoints (>100MB)
+*.pt
+*.pth
+week3_results/*.pt

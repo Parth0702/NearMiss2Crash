@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "n_neighbors": 3,
+    "min_dist": 0.1,
+    "min_cluster_size": 2,
+    "min_samples": 1,
+    "random_state": 42
+  },
+  "clusters": {
+    "0": {
+      "keywords": [
+        "altitude",
+        "radio",
+        "fatigued",
+        "catch",
+        "normally"
+      ],
+      "hfacs_class": "Skill-Based Error",
+      "description": "Fatigue and missed communication / altitude oversight"
+    },
+    "1": {
+      "keywords": [
+        "skipped",
+        "pressurization",
+        "running",
+        "schedule",
+        "knowingly"
+      ],
+      "hfacs_class": "Violation",
+      "description": "Intentional non-compliance with checklist"
+    },
+    "2": {
+      "keywords": [
+        "approach",
+        "decided",
+        "continue",
+        "judging",
+        "minimums"
+      ],
+      "hfacs_class": "Decision Error",
+      "description": "Intentional decision to continue visual approach in adverse weather"
+    }
+  }
+}

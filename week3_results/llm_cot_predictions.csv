@@ -1,0 +1,3 @@
+report_id,text,keyword_label,cluster_label,label,predicted_label
+A9,"I was fatigued and missed a radio call from ATC, a step I would normally catch.",Unlabeled,Violation,Unlabeled,"Inconsistent (Q2=yes, Q3=yes)"
+A2,"Weather was deteriorating and I decided to continue the visual approach instead of requesting the ILS, even though I was not fully confident.",Decision Error,Violation,Unlabeled,"Inconsistent (Q2=yes, Q3=yes)"

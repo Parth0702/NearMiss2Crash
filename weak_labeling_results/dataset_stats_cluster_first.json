@@ -1,0 +1,33 @@
+{
+  "strategy": "cluster_first",
+  "total_samples": 10,
+  "train_samples": 7,
+  "val_samples": 1,
+  "test_samples": 2,
+  "imbalance_report": [
+    {
+      "HFACS Class": "Skill-Based Error",
+      "Train": "1 (14.3%)",
+      "Validation": "0 (0.0%)",
+      "Test": "0 (0.0%)"
+    },
+    {
+      "HFACS Class": "Decision Error",
+      "Train": "2 (28.6%)",
+      "Validation": "0 (0.0%)",
+      "Test": "1 (50.0%)"
+    },
+    {
+      "HFACS Class": "Violation",
+      "Train": "2 (28.6%)",
+      "Validation": "0 (0.0%)",
+      "Test": "0 (0.0%)"
+    },
+    {
+      "HFACS Class": "Perceptual Error",
+      "Train": "1 (14.3%)",
+      "Validation": "0 (0.0%)",
+      "Test": "0 (0.0%)"
+    }
+  ]
+}

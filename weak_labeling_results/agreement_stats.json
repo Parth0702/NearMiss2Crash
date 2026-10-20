@@ -1,0 +1,37 @@
+{
+  "agreement_stats": {
+    "total_compared": 10,
+    "agree": 1,
+    "disagree": 9,
+    "keyword_only": 0,
+    "cluster_only": 0,
+    "unlabeled_both": 0,
+    "agreement_rate": 10.0
+  },
+  "per_class": {
+    "Skill-Based Error": {
+      "keyword_count": 1,
+      "cluster_count": 4,
+      "agree_count": 0,
+      "agree_rate": 0.0
+    },
+    "Decision Error": {
+      "keyword_count": 3,
+      "cluster_count": 0,
+      "agree_count": 0,
+      "agree_rate": 0.0
+    },
+    "Violation": {
+      "keyword_count": 2,
+      "cluster_count": 6,
+      "agree_count": 1,
+      "agree_rate": 50.0
+    },
+    "Perceptual Error": {
+      "keyword_count": 1,
+      "cluster_count": 0,
+      "agree_count": 0,
+      "agree_rate": 0.0
+    }
+  }
+}

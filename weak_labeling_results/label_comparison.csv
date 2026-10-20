@@ -1,0 +1,11 @@
+report_id,keyword_label,cluster_label
+A1,Unlabeled,Violation
+A10,Decision Error,Skill-Based Error
+A2,Decision Error,Violation
+A3,Violation,Violation
+A4,Perceptual Error,Skill-Based Error
+A5,Skill-Based Error,Violation
+A6,Decision Error,Violation
+A7,Violation,Skill-Based Error
+A8,Unlabeled,Skill-Based Error
+A9,Unlabeled,Violation

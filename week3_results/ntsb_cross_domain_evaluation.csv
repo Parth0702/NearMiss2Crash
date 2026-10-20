@@ -1,0 +1,6 @@
+Model,Domain,Accuracy,Micro-F1,Macro-F1,Precision,Recall
+logistic_regression,NTSB (Cross-Domain),0.368,0.368,0.2902,0.3167,0.2944
+random_forest,NTSB (Cross-Domain),0.277,0.277,0.1268,0.2635,0.2216
+svm,NTSB (Cross-Domain),0.3625,0.3625,0.2611,0.3422,0.29
+naive_bayes,NTSB (Cross-Domain),0.335,0.335,0.2218,0.1998,0.335
+DistilBERT,NTSB (Cross-Domain),0.7715,0.7715,0.7693,0.7754,0.7715

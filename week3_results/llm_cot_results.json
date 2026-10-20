@@ -1,0 +1,74 @@
+{
+  "config": {
+    "LLM_PROVIDER": "mock",
+    "ANTHROPIC_API_KEY": "",
+    "OPENAI_API_KEY": "",
+    "ANTHROPIC_MODEL": "claude-3-5-sonnet-20241022",
+    "OPENAI_MODEL": "gpt-4o-mini",
+    "TEMPERATURE": 0.0,
+    "MAX_TOKENS": 10,
+    "TRAIN_PATH": "weak_labeling_results/dataset_majority_train.csv",
+    "VAL_PATH": "weak_labeling_results/dataset_majority_validation.csv",
+    "TEST_PATH": "weak_labeling_results/dataset_majority_test.csv",
+    "HFACS_CLASSES": [
+      "Skill-Based Error",
+      "Decision Error",
+      "Violation",
+      "Perceptual Error"
+    ],
+    "OUTPUT_DIR": "week3_results",
+    "SHOW_PROGRESS_BAR": true,
+    "API_CALL_DELAY": 0.1
+  },
+  "predictions": [
+    "Inconsistent (Q2=yes, Q3=yes)",
+    "Inconsistent (Q2=yes, Q3=yes)"
+  ],
+  "true_labels": [
+    "Unlabeled",
+    "Unlabeled"
+  ],
+  "answers": [
+    {
+      "Q1": "yes",
+      "Q2": "yes",
+      "Q3": "yes"
+    },
+    {
+      "Q1": "yes",
+      "Q2": "yes",
+      "Q3": "yes"
+    }
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0,
+    "hamming_loss": 1.0,
+    "per_class": {
+      "Skill-Based Error": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Decision Error": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Violation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Perceptual Error": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "unexpected_count": 2
+}

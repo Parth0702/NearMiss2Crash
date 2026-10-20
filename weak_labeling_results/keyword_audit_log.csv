@@ -1,0 +1,40 @@
+keyword,target_class,total_matches,sample_count,agreed_count,agreement_ratio,status
+checklist,Skill-Based Error,1,1,0,0.0,DISCARD (Ratio: 0.00 < 0.80)
+forgot,Skill-Based Error,1,1,1,1.0,PASS
+omitted,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
+lapsed,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
+routine,Skill-Based Error,1,1,1,1.0,PASS
+habit,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
+inadvertent,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
+slip,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
+memory,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
+missed call,Skill-Based Error,0,0,0,0.0,FAIL (No Matches)
+misread,Skill-Based Error,1,1,0,0.0,DISCARD (Ratio: 0.00 < 0.80)
+decided,Decision Error,2,2,2,1.0,PASS
+elected,Decision Error,0,0,0,0.0,FAIL (No Matches)
+chose,Decision Error,1,1,1,1.0,PASS
+continued,Decision Error,0,0,0,0.0,FAIL (No Matches)
+judgment,Decision Error,0,0,0,0.0,FAIL (No Matches)
+risk,Decision Error,0,0,0,0.0,FAIL (No Matches)
+weather,Decision Error,1,1,1,1.0,PASS
+visual approach,Decision Error,1,1,1,1.0,PASS
+divert,Decision Error,0,0,0,0.0,FAIL (No Matches)
+below minimums,Decision Error,1,1,1,1.0,PASS
+knowingly,Violation,1,1,1,1.0,PASS
+intentionally,Violation,1,1,1,1.0,PASS
+skipped,Violation,1,1,1,1.0,PASS
+unauthorized,Violation,0,0,0,0.0,FAIL (No Matches)
+rule,Violation,1,1,1,1.0,PASS
+sop,Violation,0,0,0,0.0,FAIL (No Matches)
+regulation,Violation,0,0,0,0.0,FAIL (No Matches)
+sterile cockpit,Violation,1,1,1,1.0,PASS
+exceeded,Violation,1,1,1,1.0,PASS
+disorientation,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+spatial,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+illusion,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+misjudged distance,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+visibility,Perceptual Error,1,1,1,1.0,PASS
+flare,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+glare,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+featureless terrain,Perceptual Error,0,0,0,0.0,FAIL (No Matches)
+depth perception,Perceptual Error,0,0,0,0.0,FAIL (No Matches)

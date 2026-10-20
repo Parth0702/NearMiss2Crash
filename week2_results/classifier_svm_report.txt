@@ -1,0 +1,14 @@
+Model: svm (Trained on asrs_full.csv, N=17636)
+Held-out Test Macro-F1: 0.6501
+Accuracy: 0.8959
+
+                   precision    recall  f1-score   support
+
+   Decision Error       0.90      0.98      0.94      3576
+ Perceptual Error       0.85      0.35      0.50       131
+Skill-Based Error       0.84      0.60      0.70       567
+        Violation       0.89      0.31      0.46       136
+
+         accuracy                           0.90      4410
+        macro avg       0.87      0.56      0.65      4410
+     weighted avg       0.89      0.90      0.88      4410

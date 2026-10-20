@@ -1,0 +1,15 @@
+{
+  "transformer_checkpoint": "week3_results\\best_model_distilbert-base-uncased.pt",
+  "shap_plots": [
+    "week4_results\\explainability\\shap_skill-based_error.png",
+    "week4_results\\explainability\\shap_decision_error.png",
+    "week4_results\\explainability\\shap_violation.png",
+    "week4_results\\explainability\\shap_perceptual_error.png"
+  ],
+  "logreg_plots": [
+    "week4_results\\explainability\\logreg_skill-based_error.png",
+    "week4_results\\explainability\\logreg_decision_error.png",
+    "week4_results\\explainability\\logreg_violation.png",
+    "week4_results\\explainability\\logreg_perceptual_error.png"
+  ]
+}

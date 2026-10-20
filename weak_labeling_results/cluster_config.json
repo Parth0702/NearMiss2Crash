@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "n_neighbors": 3,
+    "min_dist": 0.1,
+    "min_cluster_size": 3,
+    "min_samples": 1,
+    "random_state": 42
+  },
+  "clusters": {}
+}

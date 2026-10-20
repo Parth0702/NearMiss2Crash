@@ -1,0 +1,11 @@
+report_id,text,keyword_label,cluster_label,final_label
+A1,During descent I was reprogramming the FMS and missed the ATC altitude call-out. We descended 400 ft below assigned altitude before I noticed.,Unlabeled,Violation,Violation
+A2,"Weather was deteriorating and I decided to continue the visual approach instead of requesting the ILS, even though I was not fully confident.",Decision Error,Violation,Violation
+A3,I knowingly skipped the checklist item for cabin pressurization because we were running behind schedule.,Violation,Violation,Violation
+A4,I misjudged the distance to the runway threshold in low visibility and flared too early.,Perceptual Error,Skill-Based Error,Skill-Based Error
+A5,"During taxi I forgot to switch to ground frequency after landing, a routine step I usually do automatically.",Skill-Based Error,Violation,Violation
+A6,"I chose to depart despite a known minor hydraulic warning, believing it was not critical.",Decision Error,Violation,Violation
+A7,"I intentionally exceeded the sterile cockpit rule by discussing unrelated topics below 10,000 ft.",Violation,Skill-Based Error,Skill-Based Error
+A8,In heavy rain I misread the runway edge lights and briefly drifted off centerline.,Unlabeled,Skill-Based Error,Skill-Based Error
+A9,"I was fatigued and missed a radio call from ATC, a step I would normally catch.",Unlabeled,Violation,Violation
+A10,"I decided to continue the approach below minimums, judging I could see enough of the runway.",Decision Error,Skill-Based Error,Skill-Based Error

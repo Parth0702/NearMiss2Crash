@@ -1,0 +1,14 @@
+Model: naive_bayes (Trained on asrs_full.csv, N=17636)
+Held-out Test Macro-F1: 0.2518
+Accuracy: 0.8129
+
+                   precision    recall  f1-score   support
+
+   Decision Error       0.82      0.99      0.90      3576
+ Perceptual Error       0.00      0.00      0.00       131
+Skill-Based Error       0.55      0.06      0.11       567
+        Violation       0.00      0.00      0.00       136
+
+         accuracy                           0.81      4410
+        macro avg       0.34      0.26      0.25      4410
+     weighted avg       0.73      0.81      0.74      4410
