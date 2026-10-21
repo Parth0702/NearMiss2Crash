@@ -16,8 +16,12 @@ ntsb dataset/archive.zip
 ntsb dataset/archive/
 test_cp1252.csv
 test_latin-1.csv
+data/processed/*.csv
+data/raw/*.csv
+asrs_full.csv
 
 # Large Model Checkpoints (>100MB)
 *.pt
 *.pth
 week3_results/*.pt
+
