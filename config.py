@@ -35,6 +35,7 @@ MASTER_SCHEMA_COLUMNS = [
     "flight_phase",
     "raw_codes",
     "cause_text",
+    "text_may_contain_cause",
     "hfacs_code",
     "keyword_label",
     "llm_label",
