@@ -1,0 +1,56 @@
+2026-10-21 22:18:16,812 [INFO] ================================================================================
+2026-10-21 22:18:16,812 [INFO] PHASE 1: SINGLE-REPORTER (REPORT 1 ONLY) CRISP BASELINE GENERATION
+2026-10-21 22:18:16,812 [INFO] ================================================================================
+2026-10-21 22:18:16,812 [INFO] Project Root: D:\SC project
+2026-10-21 22:18:16,812 [INFO] Target Output Directory: D:\SC project\experiments\fuzzy_asrs
+2026-10-21 22:18:16,812 [INFO] Loading local cached Arrow dataset from: C:\Users\parth\.cache\huggingface\datasets\elihoole___asrs-aviation-reports\default\0.0.0\f1e681e92cddae20d01fc498d685f1cf6a052d34\asrs-aviation-reports-train.arrow
+2026-10-21 22:18:16,853 [INFO] Loaded 38,655 records from local Arrow cache.
+2026-10-21 22:18:16,854 [INFO] Extracting report_id and Report 1_Narrative (single-reporter primary text)...
+2026-10-21 22:18:33,812 [INFO] 
+--- TEXT INTEGRITY DIAGNOSTICS ---
+2026-10-21 22:18:34,991 [INFO] Total Rows              : 38,655
+2026-10-21 22:18:34,991 [INFO] Unique Report IDs       : 38,655
+2026-10-21 22:18:34,991 [INFO] Duplicate Report IDs    : 0
+2026-10-21 22:18:34,991 [INFO] Null Text Count         : 0
+2026-10-21 22:18:34,991 [INFO] Empty Text Count        : 0
+2026-10-21 22:18:34,991 [INFO] Duplicate Narratives    : 5
+2026-10-21 22:18:34,993 [INFO] Mean Character Length   : 1586.7 (Median: 1273, Min: 11, Max: 11991)
+2026-10-21 22:18:34,994 [INFO] Mean Word Count         : 280.2 (Median: 225, Min: 2, Max: 2345)
+2026-10-21 22:18:34,994 [INFO] 
+--- INITIALIZING CANONICAL KEYWORD WEAK LABELER ---
+2026-10-21 22:18:34,994 [INFO]   Class: Skill-Based Error    | 11 keywords: checklist, forgot, omitted, lapsed, routine, habit, inadvertent, slip, memory, missed call, misread
+2026-10-21 22:18:34,994 [INFO]   Class: Decision Error       | 10 keywords: decided, elected, chose, continued, judgment, risk, weather, visual approach, divert, below minimums
+2026-10-21 22:18:34,994 [INFO]   Class: Violation            |  9 keywords: knowingly, intentionally, skipped, unauthorized, rule, sop, regulation, sterile cockpit, exceeded
+2026-10-21 22:18:34,994 [INFO]   Class: Perceptual Error     |  9 keywords: disorientation, spatial, illusion, misjudged distance, visibility, flare, glare, featureless terrain, depth perception
+2026-10-21 22:18:34,994 [INFO] Total validated seed keywords registered: 39
+2026-10-21 22:18:34,994 [INFO] 
+Running KeywordWeakLabeler.transform() on Report 1 text...
+2026-10-21 22:19:32,194 [INFO] Weak labeling completed in 57.20 seconds (675.8 rows/s).
+2026-10-21 22:19:32,195 [INFO] Saving crisp baseline rows to: D:\SC project\experiments\fuzzy_asrs\crisp_baseline_rows.csv
+2026-10-21 22:19:33,450 [INFO] File size: 60.59 MB
+2026-10-21 22:19:33,450 [INFO] 
+--- CRISP LABEL DISTRIBUTION (REPORT 1 ONLY) ---
+2026-10-21 22:19:33,454 [INFO]   Skill-Based Error   :  2,826 ( 7.31% of all | 13.42% of labeled)
+2026-10-21 22:19:33,454 [INFO]   Decision Error      : 16,906 (43.74% of all | 80.28% of labeled)
+2026-10-21 22:19:33,454 [INFO]   Violation           :    667 ( 1.73% of all |  3.17% of labeled)
+2026-10-21 22:19:33,454 [INFO]   Perceptual Error    :    659 ( 1.70% of all |  3.13% of labeled)
+2026-10-21 22:19:33,454 [INFO]   Unlabeled           : 17,597 (45.52% of all |  0.00% of labeled)
+2026-10-21 22:19:33,455 [INFO] 
+Total Labeled   : 21,058 (54.48%)
+2026-10-21 22:19:33,455 [INFO] Total Unlabeled : 17,597 (45.52%)
+2026-10-21 22:19:33,457 [INFO] Saved distribution summary to: D:\SC project\experiments\fuzzy_asrs\crisp_label_distribution.csv
+2026-10-21 22:19:33,457 [INFO] 
+--- COMPARISON: REPORT 1 ALONE vs. COMBINED (REPORT 1 + 2) ---
+2026-10-21 22:19:34,479 [INFO] Class                | Report 1 Only  | Combined (1+2) | Diff (R1 - Comb)
+2026-10-21 22:19:34,479 [INFO] ----------------------------------------------------------------------
+2026-10-21 22:19:34,479 [INFO] Skill-Based Error    |  2,826 ( 7.31%) |  2,833 ( 7.33%) |      -7 (-0.02%)
+2026-10-21 22:19:34,479 [INFO] Decision Error       | 16,906 (43.74%) | 17,875 (46.24%) |    -969 (-2.51%)
+2026-10-21 22:19:34,480 [INFO] Violation            |    667 ( 1.73%) |    680 ( 1.76%) |     -13 (-0.03%)
+2026-10-21 22:19:34,480 [INFO] Perceptual Error     |    659 ( 1.70%) |    658 ( 1.70%) |      +1 (+0.00%)
+2026-10-21 22:19:34,480 [INFO] Unlabeled            | 17,597 (45.52%) | 16,609 (42.97%) |    +988 (+2.56%)
+2026-10-21 22:19:34,481 [INFO] 
+Exact label agreement between Report 1 and Combined: 37,374 / 38,655 (96.69%)
+2026-10-21 22:19:34,481 [INFO] Labels changed due to secondary report text: 1,281 (3.31%)
+2026-10-21 22:19:34,481 [INFO] ================================================================================
+2026-10-21 22:19:34,481 [INFO] PHASE 1 COMPLETE IN 77.67 SECONDS
+2026-10-21 22:19:34,481 [INFO] ================================================================================

@@ -1,0 +1,5 @@
+model,held_out_asrs_f1,asrs_ci_lower,asrs_ci_upper,ntsb_consistent_f1,ntsb_ci_lower,ntsb_ci_upper,abs_drop,rel_drop_pct,protocol_b_4cls_penalized,protocol_b_5cls_all,preprocessor_ntsb_macro,procedure_gap
+Logistic Regression,0.4104,0.3849,0.4391,0.4657,0.4399,0.4915,0.0553,13.47,0.4164,0.3327,0.2553,0.2103
+Linear SVM,0.6501,0.6162,0.6811,0.7396,0.7104,0.7678,0.0895,13.77,0.6235,0.4987,0.4541,0.2855
+Random Forest,0.2284,0.2246,0.2328,0.1781,0.1729,0.1836,-0.0503,-22.01,0.1405,0.1125,0.1,0.0781
+Naive Bayes,0.2518,0.2428,0.2605,0.1893,0.1794,0.2019,-0.0625,-24.82,0.1516,0.1211,0.105,0.0843

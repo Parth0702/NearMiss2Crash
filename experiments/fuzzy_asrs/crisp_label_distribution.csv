@@ -1,0 +1,6 @@
+class,count,percentage_all,percentage_labeled
+Skill-Based Error,2826,7.31,13.42
+Decision Error,16906,43.74,80.28
+Violation,667,1.73,3.17
+Perceptual Error,659,1.7,3.13
+Unlabeled,17597,45.52,
