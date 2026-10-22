@@ -28,3 +28,7 @@ tqdm>=4.60.0
 # Optional: additional ML libraries
 # xgboost>=1.5.0  (if using gradient boosting)
 # lightgbm>=3.3.0  (if using gradient boosting)
+
+# LLM & API Integration (Phase 3D Fusion)
+google-genai>=0.1.0
+python-dotenv>=1.0.0

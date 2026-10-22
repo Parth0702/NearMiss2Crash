@@ -1,0 +1,557 @@
+{
+  "audit_date": "2026-10-22",
+  "experiment_size": 10,
+  "note": "Sample manifest from verified 10-report pilot. 148-report experiment unsubstantiated. Sampling corrected to include Uncertain reports and Gemini permitted to output Uncertain labels.",
+  "reports": [
+    {
+      "report_id": "ASRS_1222980",
+      "narrative_preview": "Report ASRS_1222980",
+
+      "crisp": {
+        "label": "Skill-Based Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.75,
+        "dominance": 0.75,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Skill-Based Error",
+        "confidence": 0.9,
+        "evidence_scores": {
+          "Skill-Based Error": 0.9,
+          "Decision Error": 0.4,
+          "Violation": 0.1,
+          "Perceptual Error": 0.1
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Skill-Based Error",
+        "confidence": 0.82,
+        "fused_scores": {
+          "Skill-Based Error": 0.82,
+          "Decision Error": 0.44,
+          "Violation": 0.09,
+          "Perceptual Error": 0.09
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false
+      }
+    },
+    {
+      "report_id": "ASRS_1327834",
+      "narrative_preview": "Report ASRS_1327834",
+
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Decision Error",
+        "confidence": 0.42,
+        "dominance": 0.42,
+        "rule_fired": "R5_MODERATE_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 2,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.65,
+        "evidence_scores": {
+          "Skill-Based Error": 0.1,
+          "Decision Error": 0.65,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Decision Error",
+        "confidence": 0.57,
+        "fused_scores": {
+          "Skill-Based Error": 0.15,
+          "Decision Error": 0.57,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false
+      }
+    },
+    {
+      "report_id": "ASRS_1734752",
+      "narrative_preview": "Report ASRS_1734752",
+
+      "crisp": {
+        "label": "Violation",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Violation",
+        "confidence": 1.0,
+        "dominance": 1.0,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 1,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.0,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.0,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Violation",
+        "confidence": 0.5,
+        "fused_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.0,
+          "Violation": 0.5,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false
+      }
+    },
+    {
+      "report_id": "ASRS_1420822",
+      "narrative_preview": "Report ASRS_1420822",
+
+      "crisp": {
+        "label": "Perceptual Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Perceptual Error",
+        "confidence": 0.0,
+        "dominance": 0.0,
+        "rule_fired": "R0_NO_EVIDENCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": true
+      },
+
+      "gemini": {
+        "label": "Perceptual Error",
+        "confidence": 0.1,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.1,
+          "Violation": 0.0,
+          "Perceptual Error": 0.1
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Perceptual Error",
+        "confidence": 0.05,
+        "fused_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.1,
+          "Violation": 0.0,
+          "Perceptual Error": 0.05
+        },
+        "alpha": 0.5,
+        "abstained": true,
+        "change_from_fuzzy": false
+      }
+    },
+    {
+      "report_id": "ASRS_1807000",
+      "narrative_preview": "Report ASRS_1807000",
+
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.3,
+        "dominance": 0.3,
+        "rule_fired": "R5_MODERATE_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 1,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.2,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.2,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Uncertain",
+        "confidence": 0.0,
+        "fused_scores": {
+          "Skill-Based Error": 0.15,
+          "Decision Error": 0.17,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": true,
+        "change_from_fuzzy": true
+      }
+    },
+    {
+      "report_id": "ASRS_1426772",
+      "narrative_preview": "Report ASRS_1426772",
+
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.25,
+        "dominance": 0.25,
+        "rule_fired": "R3_EXACT_TIE",
+        "evidence_counts": {
+          "Skill-Based Error": 2,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.35,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.35,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Decision Error",
+        "confidence": 0.31,
+        "fused_scores": {
+          "Skill-Based Error": 0.13,
+          "Decision Error": 0.31,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": true
+      }
+    },
+    {
+      "report_id": "ASRS_1050870",
+      "narrative_preview": "Report ASRS_1050870",
+
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.5,
+        "dominance": 0.5,
+        "rule_fired": "R5_MODERATE_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 3,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Skill-Based Error",
+        "confidence": 0.4,
+        "evidence_scores": {
+          "Skill-Based Error": 0.4,
+          "Decision Error": 0.0,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Skill-Based Error",
+        "confidence": 0.45,
+        "fused_scores": {
+          "Skill-Based Error": 0.45,
+          "Decision Error": 0.1,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false
+      }
+    },
+    {
+      "report_id": "ASRS_1714599",
+      "narrative_preview": "Report ASRS_1714599",
+
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.2,
+        "dominance": 0.2,
+        "rule_fired": "R4_BELOW_DOMINANCE_MARGIN",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.15,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.15,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Uncertain",
+        "confidence": 0.0,
+        "fused_scores": {
+          "Skill-Based Error": 0.10,
+          "Decision Error": 0.12,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": true,
+        "change_from_fuzzy": true
+      }
+    },
+    {
+      "report_id": "ASRS_1192462",
+      "narrative_preview": "Report ASRS_1192462",
+
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Decision Error",
+        "confidence": 0.6,
+        "dominance": 0.6,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 3,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.55,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.55,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Decision Error",
+        "confidence": 0.53,
+        "fused_scores": {
+          "Skill-Based Error": 0.15,
+          "Decision Error": 0.53,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false
+      }
+    },
+    {
+      "report_id": "ASRS_1673032",
+      "narrative_preview": "Report ASRS_1673032",
+
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "fuzzy": {
+        "label": "Decision Error",
+        "confidence": 0.7,
+        "dominance": 0.7,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 2,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+
+      "gemini": {
+        "label": "Skill-Based Error",
+        "confidence": 0.2,
+        "evidence_scores": {
+          "Skill-Based Error": 0.2,
+          "Decision Error": 0.0,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "abstained": false
+      },
+
+      "fusion": {
+        "label": "Decision Error",
+        "confidence": 0.58,
+        "fused_scores": {
+          "Skill-Based Error": 0.14,
+          "Decision Error": 0.58,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false
+      }
+    }
+  ]
+}

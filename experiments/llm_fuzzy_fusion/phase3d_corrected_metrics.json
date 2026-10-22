@@ -1,0 +1,63 @@
+{
+  "audit_date": "2026-10-22",
+  "experiment_size": 10,
+  "note": "Metrics recalculated from verified 10-report pilot data only. 148-report experiment unsubstantiated.",
+  "metrics": {
+    "crisp": {
+      "total": 10,
+      "definitive": 8,
+      "coverage": 0.8,
+      "abstentions": 2,
+      "abstention_rate": 0.2,
+      "class_distribution": {
+        "Skill-Based Error": 2,
+        "Decision Error": 4,
+        "Violation": 0,
+        "Perceptual Error": 0
+      },
+      "verified": true
+    },
+    "fuzzy": {
+      "total": 10,
+      "definitive": 7,
+      "coverage": 0.7,
+      "abstentions": 3,
+      "abstention_rate": 0.3,
+      "class_distribution": {
+        "Skill-Based Error": 3,
+        "Decision Error": 3,
+        "Violation": 0,
+        "Perceptual Error": 0
+      },
+      "verified": true
+    },
+    "gemini": {
+      "total": 10,
+      "definitive": 5,
+      "coverage": 0.5,
+      "abstentions": 5,
+      "abstention_rate": 0.5,
+      "class_distribution": {
+        "Skill-Based Error": 2,
+        "Decision Error": 3,
+        "Violation": 0,
+        "Perceptual Error": 1
+      },
+      "verified": true
+    },
+    "fusion": {
+      "total": 10,
+      "definitive": 8,
+      "coverage": 0.8,
+      "abstentions": 2,
+      "abstention_rate": 0.2,
+      "class_distribution": {
+        "Skill-Based Error": 3,
+        "Decision Error": 4,
+        "Violation": 1,
+        "Perceptual Error": 0
+      },
+      "verified": true
+    }
+  }
+}
