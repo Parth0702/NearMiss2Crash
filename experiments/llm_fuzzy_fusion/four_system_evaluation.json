@@ -1,0 +1,672 @@
+{
+  "metadata": {
+    "num_reports": 10,
+    "fusion_config": {
+      "alpha": 0.5,
+      "min_support": 0.25,
+      "min_dominance_gap": 0.1
+    },
+    "note": "No classification accuracy reported without independent reference labels"
+  },
+  "results": [
+    {
+      "report_id": "ASRS_1222980",
+      "narrative_preview": "I feel on this morning we were already behind the game with the late boarding due to Flight Attendant being very late to the plane. So between playing catch up and on top of that trying to rush to get...",
+      "crisp": {
+        "label": "Skill-Based Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.75,
+        "dominance": 0.75,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 7,
+          "Decision Error": 1,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Skill-Based Error",
+        "confidence": 0.9,
+        "evidence_scores": {
+          "Skill-Based Error": 0.9,
+          "Decision Error": 0.4,
+          "Violation": 0.1,
+          "Perceptual Error": 0.1
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [
+            "After takeoff at some point we realized we never had numbers and the rotation speed called was probably from the landing reference speed last set in the box.",
+            "I have had this happen lots of times where you cannot get the numbers and have never once before this time forgot to come back to check that the FO got the numbers."
+          ],
+          "Decision Error": [
+            "So between playing catch up and on top of that trying to rush to get everything done and be airborne in time to beat storms approaching our destination airport"
+          ],
+          "Violation": [],
+          "Perceptual Error": []
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Skill-Based Error",
+        "confidence": 0.8142857142857142,
+        "fused_scores": {
+          "Skill-Based Error": 0.95,
+          "Decision Error": 0.27142857142857146,
+          "Violation": 0.05,
+          "Perceptual Error": 0.05
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false,
+        "change_detail": null,
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": null
+      }
+    },
+    {
+      "report_id": "ASRS_1327834",
+      "narrative_preview": "Departing Denver on 17R; I rejected the takeoff due to a Master Caution Forward Door entry light. Our speed at the time of the reject was approximately 80-90 knots. The airspeed possibly could be high...",
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Decision Error",
+        "confidence": 0.875,
+        "dominance": 1.0,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 4,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.95,
+        "evidence_scores": {
+          "Skill-Based Error": 0.2,
+          "Decision Error": 0.95,
+          "Violation": 0.1,
+          "Perceptual Error": 0.1
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [
+            "I am not positive if the autobrakes were iniated."
+          ],
+          "Decision Error": [
+            "I should have continued the takeoff.",
+            "I need to remember that rejected takeoffs above 80 knots are for engine failures; fire or fire warnings; and predictive windshear warnings. I elected to abort when I shouldn't have."
+          ],
+          "Violation": [],
+          "Perceptual Error": [
+            "Master Caution Forward Door entry light"
+          ]
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Decision Error",
+        "confidence": 0.9249999999999999,
+        "fused_scores": {
+          "Skill-Based Error": 0.1,
+          "Decision Error": 0.975,
+          "Violation": 0.05,
+          "Perceptual Error": 0.05
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false,
+        "change_detail": null,
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": null
+      }
+    },
+    {
+      "report_id": "ASRS_1734752",
+      "narrative_preview": "Upon landing; my brakes locked causing a nose over on the runway. My prop struck the ground and was largely destroyed. My wheel pants suffered damage; but should be repairable. I believe the situation...",
+      "crisp": {
+        "label": "Violation",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Violation",
+        "confidence": 1.0,
+        "dominance": 1.0,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 6,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.0,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.0,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [],
+          "Decision Error": [],
+          "Violation": [],
+          "Perceptual Error": []
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Violation",
+        "confidence": 0.5,
+        "fused_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.0,
+          "Violation": 0.5,
+          "Perceptual Error": 0.0
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false,
+        "change_detail": null,
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": null
+      }
+    },
+    {
+      "report_id": "ASRS_1420822",
+      "narrative_preview": "[The area] was experiencing a severe winter storm. We were flying a 737NG; flaps -40; in heavy rain; moderate turbulence; strong gusty crosswinds; wipers on high; 0.75 mi visibility to ZZZ's runway. A...",
+      "crisp": {
+        "label": "Perceptual Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Perceptual Error",
+        "confidence": 1.0,
+        "dominance": 1.0,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 9
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Perceptual Error",
+        "confidence": 0.85,
+        "evidence_scores": {
+          "Skill-Based Error": 0.3,
+          "Decision Error": 0.4,
+          "Violation": 0.0,
+          "Perceptual Error": 0.9
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [
+            "Having sufficient depth perception to finesse a normal flare and landing is quite another."
+          ],
+          "Decision Error": [
+            "with the runway environment in sight at 200 ft I said; 'landing.' That's when the fun started."
+          ],
+          "Violation": [],
+          "Perceptual Error": [
+            "Perceiving the runway environment is one thing. Having sufficient depth perception to finesse a normal flare and landing is quite another.",
+            "Everything is blurry and it frankly is not safe."
+          ]
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Perceptual Error",
+        "confidence": 0.85,
+        "fused_scores": {
+          "Skill-Based Error": 0.15,
+          "Decision Error": 0.2,
+          "Violation": 0.0,
+          "Perceptual Error": 0.95
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false,
+        "change_detail": null,
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": null
+      }
+    },
+    {
+      "report_id": "ASRS_1807000",
+      "narrative_preview": "Started descent for the ZZZZ 1 arrival into ZZZ from FL400.  At approximately FL330 we received an IAS DISAGREE message. I checked all 3 airspeed indicators and mine matched the standby while the Capt...",
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.1042,
+        "dominance": 0.2,
+        "rule_fired": "R5_MODERATE_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 3,
+          "Decision Error": 2,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.4,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.2,
+          "Violation": 0.0,
+          "Perceptual Error": 0.1
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [],
+          "Decision Error": [
+            "We continued to descend via the arrival and shot the visual approach to Runway XXL with no other issues or incidents."
+          ],
+          "Violation": [],
+          "Perceptual Error": [
+            "IAS DISAGREE",
+            "Captain's showed 10 KTS slow",
+            "ALT DISAGREE"
+          ]
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Uncertain",
+        "confidence": 0.0,
+        "fused_scores": {
+          "Skill-Based Error": 0.5,
+          "Decision Error": 0.43333333333333335,
+          "Violation": 0.0,
+          "Perceptual Error": 0.05
+        },
+        "alpha": 0.5,
+        "abstained": true,
+        "change_from_fuzzy": true,
+        "change_detail": "Skill-Based Error -> Uncertain",
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": "unclear"
+      }
+    },
+    {
+      "report_id": "ASRS_1426772",
+      "narrative_preview": "I was pilot in command and my passenger was a private-certificated; instrument-rated co-owner of the incident aircraft. We were on an IFR flight plan; the first leg of a multi-day trip. We were establ...",
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.0833,
+        "dominance": 0.1667,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 7,
+          "Decision Error": 5,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.9,
+        "evidence_scores": {
+          "Skill-Based Error": 0.4,
+          "Decision Error": 0.9,
+          "Violation": 0.0,
+          "Perceptual Error": 0.3
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [
+            "The circling descent was wide and left us well out of gliding distance from the airport; which my passenger objected to; so I corrected."
+          ],
+          "Decision Error": [
+            "I failed to consider moving the magneto to the RIGHT position so that we could potentially get more power from the engine without excess vibrations.",
+            "I was slow to commence the Engine Partial Power Loss checklist."
+          ],
+          "Violation": [],
+          "Perceptual Error": [
+            "I circled outside of gliding range during my descent."
+          ]
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Decision Error",
+        "confidence": 0.45714285714285713,
+        "fused_scores": {
+          "Skill-Based Error": 0.7,
+          "Decision Error": 0.8071428571428572,
+          "Violation": 0.0,
+          "Perceptual Error": 0.15
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": true,
+        "change_detail": "Skill-Based Error -> Decision Error",
+        "gemini_agrees_with_fusion": true,
+        "narrative_supports_change": "likely"
+      }
+    },
+    {
+      "report_id": "ASRS_1050870",
+      "narrative_preview": "We initiated a maximum power takeoff due to deicing. With the combination of the cold weather and a light aircraft; the acceleration rate was noticeably greater than normal. Just as I completed settin...",
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.1042,
+        "dominance": 0.25,
+        "rule_fired": "R5_MODERATE_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 2,
+          "Decision Error": 1,
+          "Violation": 1,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Skill-Based Error",
+        "confidence": 0.9,
+        "evidence_scores": {
+          "Skill-Based Error": 0.9,
+          "Decision Error": 0.2,
+          "Violation": 0.0,
+          "Perceptual Error": 0.3
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [
+            "I did not make the 80 knot call out",
+            "I became frustrated with my inability to find it. I spent several minutes pouring over the QRH looking for it."
+          ],
+          "Decision Error": [
+            "The Captain announced the abort and a very aggressive stop was initiated."
+          ],
+          "Violation": [],
+          "Perceptual Error": [
+            "With the combination of the cold weather and a light aircraft; the acceleration rate was noticeably greater than normal."
+          ]
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Skill-Based Error",
+        "confidence": 0.7749999999999999,
+        "fused_scores": {
+          "Skill-Based Error": 0.95,
+          "Decision Error": 0.35,
+          "Violation": 0.25,
+          "Perceptual Error": 0.15
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false,
+        "change_detail": null,
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": null
+      }
+    },
+    {
+      "report_id": "ASRS_1714599",
+      "narrative_preview": "With the Weather at 2 SM (Statue Miles) and snowing; as part of my pre-takeoff brief I acknowledged the low visibility and set the ILS Runway XXR frequencies in Nav1 and Nav2. Takeoff roll began and r...",
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Skill-Based Error",
+        "confidence": 0.1042,
+        "dominance": 0.25,
+        "rule_fired": "R5_MODERATE_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 2,
+          "Decision Error": 1,
+          "Violation": 0,
+          "Perceptual Error": 1
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.6,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.4,
+          "Violation": 0.0,
+          "Perceptual Error": 0.0
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [],
+          "Decision Error": [
+            "I reacted by turning off the Master Light switch on the overhead panel."
+          ],
+          "Violation": [],
+          "Perceptual Error": []
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Uncertain",
+        "confidence": 0.0,
+        "fused_scores": {
+          "Skill-Based Error": 0.5,
+          "Decision Error": 0.45,
+          "Violation": 0.0,
+          "Perceptual Error": 0.25
+        },
+        "alpha": 0.5,
+        "abstained": true,
+        "change_from_fuzzy": true,
+        "change_detail": "Skill-Based Error -> Uncertain",
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": "unclear"
+      }
+    },
+    {
+      "report_id": "ASRS_1192462",
+      "narrative_preview": "Our night flight to Denver was uneventful with several weather deviations enroute and during descent. We were cleared to descend via the CREDE2 Arrival into DEN. Passing thru FL180 the Descent Checkli...",
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Decision Error",
+        "confidence": 0.1042,
+        "dominance": 0.2,
+        "rule_fired": "R5_MODERATE_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 2,
+          "Decision Error": 3,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Decision Error",
+        "confidence": 0.7,
+        "evidence_scores": {
+          "Skill-Based Error": 0.2,
+          "Decision Error": 0.8,
+          "Violation": 0.0,
+          "Perceptual Error": 0.4
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [
+            "It appears that the wrong airport ATIS printout was reviewed and announced when setting the Baro Altimeters."
+          ],
+          "Decision Error": [
+            "It appears that the wrong airport ATIS printout was reviewed and announced when setting the Baro Altimeters."
+          ],
+          "Violation": [],
+          "Perceptual Error": [
+            "At 1;000 FT AGL the First Officer read the appropriate checklist and noticed abnormal LDG MEMO text. Before he could say anything; our ND screens went full RED and EGPWS went off with full TERRAIN warning."
+          ]
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Decision Error",
+        "confidence": 0.6833333333333333,
+        "fused_scores": {
+          "Skill-Based Error": 0.43333333333333335,
+          "Decision Error": 0.9,
+          "Violation": 0.0,
+          "Perceptual Error": 0.2
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false,
+        "change_detail": null,
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": null
+      }
+    },
+    {
+      "report_id": "ASRS_1673032",
+      "narrative_preview": "Cleared for the visual approach to 9R at PHL airport. The weather was night VMC with unrestricted visibility and light winds. I was the Flying Pilot with the autopilot engaged. We were at 2;000 ft. AG...",
+      "crisp": {
+        "label": "Decision Error",
+        "evidence_counts": {
+          "Skill-Based Error": 0,
+          "Decision Error": 0,
+          "Violation": 0,
+          "Perceptual Error": 0
+        },
+        "matched_keywords": {},
+        "abstained": false
+      },
+      "fuzzy": {
+        "label": "Decision Error",
+        "confidence": 0.2083,
+        "dominance": 0.2857,
+        "rule_fired": "R5_HIGH_DOMINANCE",
+        "evidence_counts": {
+          "Skill-Based Error": 2,
+          "Decision Error": 4,
+          "Violation": 0,
+          "Perceptual Error": 1
+        },
+        "abstained": false
+      },
+      "gemini": {
+        "label": "Skill-Based Error",
+        "confidence": 0.1,
+        "evidence_scores": {
+          "Skill-Based Error": 0.0,
+          "Decision Error": 0.0,
+          "Violation": 0.0,
+          "Perceptual Error": 0.2
+        },
+        "supporting_excerpts": {
+          "Skill-Based Error": [],
+          "Decision Error": [],
+          "Violation": [],
+          "Perceptual Error": [
+            "Without warning the GS indication deflected instantly to full down."
+          ]
+        },
+        "abstained": false
+      },
+      "fusion": {
+        "label": "Decision Error",
+        "confidence": 0.375,
+        "fused_scores": {
+          "Skill-Based Error": 0.25,
+          "Decision Error": 0.5,
+          "Violation": 0.0,
+          "Perceptual Error": 0.225
+        },
+        "alpha": 0.5,
+        "abstained": false,
+        "change_from_fuzzy": false,
+        "change_detail": null,
+        "gemini_agrees_with_fusion": false,
+        "narrative_supports_change": null
+      }
+    }
+  ]
+}

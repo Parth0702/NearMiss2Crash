@@ -1,0 +1,441 @@
+{
+  "ASRS_1222980": {
+    "report_id": "ASRS_1222980",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.9,
+          "supporting_excerpts": [
+            "After takeoff at some point we realized we never had numbers and the rotation speed called was probably from the landing reference speed last set in the box.",
+            "I have had this happen lots of times where you cannot get the numbers and have never once before this time forgot to come back to check that the FO got the numbers."
+          ],
+          "reasoning": "The flight crew suffered a memory lapse and omitted a critical procedural step (checking/obtaining takeoff numbers and cross-checking speeds) due to high workload and rushing, which falls under skill-based errors (specifically omissions and memory lapses)."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.4,
+          "supporting_excerpts": [
+            "So between playing catch up and on top of that trying to rush to get everything done and be airborne in time to beat storms approaching our destination airport"
+          ],
+          "reasoning": "While there was rushing and dealing with a complex situation, the primary failure was an unintentional omission of a checklist item and memory lapse rather than an intentionally flawed plan or poor choice."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.1,
+          "supporting_excerpts": [],
+          "reasoning": "There is no indication of willful disregard of rules or regulations; the crew attempted to complete checklists amidst distractions."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.1,
+          "supporting_excerpts": [],
+          "reasoning": "The crew's misjudgment of takeoff speeds was due to a memory lapse/omission rather than a sensory illusion or misperception of the environment."
+        }
+      ],
+      "proposed_label": "Skill-Based Error",
+      "confidence": 0.9
+    },
+    "token_usage": {
+      "prompt_tokens": 803,
+      "candidates_tokens": 458,
+      "total_tokens": 1261
+    }
+  },
+  "ASRS_1327834": {
+    "report_id": "ASRS_1327834",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.2,
+          "supporting_excerpts": [
+            "I am not positive if the autobrakes were iniated."
+          ],
+          "reasoning": "There is a minor mention of uncertainty regarding procedural execution like autobrakes, but the primary issue is not a slip, lapse, or routine motor skill failure."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.95,
+          "supporting_excerpts": [
+            "I should have continued the takeoff.",
+            "I need to remember that rejected takeoffs above 80 knots are for engine failures; fire or fire warnings; and predictive windshear warnings. I elected to abort when I shouldn't have."
+          ],
+          "reasoning": "The pilot made an intentional choice based on inadequate or misapplied knowledge to reject a takeoff above 80 knots for a non-emergency indication (Forward Door entry light), which fits the definition of a Decision Error (problem-solving/choice error)."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.1,
+          "supporting_excerpts": [],
+          "reasoning": "There is no indication of a willful disregard for rules or regulations, but rather a flawed mental assessment of when to reject a takeoff."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.1,
+          "supporting_excerpts": [
+            "Master Caution Forward Door entry light"
+          ],
+          "reasoning": "The pilot perceived the light correctly, but the error lay in the decision-making process of how to respond to it rather than a misperception of the sensory environment."
+        }
+      ],
+      "proposed_label": "Decision Error",
+      "confidence": 0.95
+    },
+    "token_usage": {
+      "prompt_tokens": 973,
+      "candidates_tokens": 444,
+      "total_tokens": 1417
+    }
+  },
+  "ASRS_1734752": {
+    "report_id": "ASRS_1734752",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "The pilot experienced a mechanical issue with the parking brake valve locking up, not a slip, lapse, or execution error in basic flying skills."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "The incident resulted from a suspected equipment malfunction rather than a flawed intentional course of action or bad operational decision by the pilot."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "The pilot explicitly stated an intent to be fully compliant and researched reporting rules, showing no willful disregard or routine/exceptional violation of regulations."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no evidence that misperception of spatial orientation, weather, or visual illusions contributed to the event."
+        }
+      ],
+      "proposed_label": "Decision Error",
+      "confidence": 0.0
+    },
+    "token_usage": {
+      "prompt_tokens": 738,
+      "candidates_tokens": 315,
+      "total_tokens": 1053
+    }
+  },
+  "ASRS_1420822": {
+    "report_id": "ASRS_1420822",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.3,
+          "supporting_excerpts": [
+            "Having sufficient depth perception to finesse a normal flare and landing is quite another."
+          ],
+          "reasoning": "The pilot experienced difficulty in executing the physical flare and landing due to poor visibility, which touches upon motor skill execution, though the root cause described is perceptual/environmental."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.4,
+          "supporting_excerpts": [
+            "with the runway environment in sight at 200 ft I said; 'landing.' That's when the fun started."
+          ],
+          "reasoning": "The pilot made a decision to continue and land based on legal minimums and seeing the runway lights, which turned out problematic due to heavy rain obscuring forward vision."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no indication of any willful disregard of rules, regulations, or procedures during the approach."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.9,
+          "supporting_excerpts": [
+            "Perceiving the runway environment is one thing. Having sufficient depth perception to finesse a normal flare and landing is quite another.",
+            "Everything is blurry and it frankly is not safe."
+          ],
+          "reasoning": "The core issue highlighted by the pilot is the degradation of depth perception and forward visibility caused by heavy rain on the windshield and wipers failing to clear it, fitting the Perceptual Error category."
+        }
+      ],
+      "proposed_label": "Perceptual Error",
+      "confidence": 0.85
+    },
+    "token_usage": {
+      "prompt_tokens": 933,
+      "candidates_tokens": 438,
+      "total_tokens": 1371
+    }
+  },
+  "ASRS_1807000": {
+    "report_id": "ASRS_1807000",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no evidence of slips, lapses, or procedural execution failures (skill-based errors) by the flight crew; they properly managed multiple system anomalies."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.2,
+          "supporting_excerpts": [
+            "We continued to descend via the arrival and shot the visual approach to Runway XXL with no other issues or incidents."
+          ],
+          "reasoning": "The crew made a conscious decision to continue the flight and land after experiencing multiple instrument and engine control disagreements, though procedural checklists were correctly executed."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no indication in the narrative that the crew willfully disregarded rules, regulations, or standard operating procedures."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.1,
+          "supporting_excerpts": [
+            "IAS DISAGREE",
+            "Captain's showed 10 KTS slow",
+            "ALT DISAGREE"
+          ],
+          "reasoning": "While sensory misperception is involved in the mechanical/instrument failure (disagreements), it was an equipment malfunction rather than a crew perceptual illusion error."
+        }
+      ],
+      "proposed_label": "Decision Error",
+      "confidence": 0.4
+    },
+    "token_usage": {
+      "prompt_tokens": 584,
+      "candidates_tokens": 386,
+      "total_tokens": 970
+    }
+  },
+  "ASRS_1426772": {
+    "report_id": "ASRS_1426772",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.4,
+          "supporting_excerpts": [
+            "The circling descent was wide and left us well out of gliding distance from the airport; which my passenger objected to; so I corrected."
+          ],
+          "reasoning": "The pilot experienced execution errors such as flying a wide circling descent that put them out of gliding distance, which stems from attentional or procedural execution lapses during high workload."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.9,
+          "supporting_excerpts": [
+            "I failed to consider moving the magneto to the RIGHT position so that we could potentially get more power from the engine without excess vibrations.",
+            "I was slow to commence the Engine Partial Power Loss checklist."
+          ],
+          "reasoning": "The pilot made intentional cognitive choices (or failures to choose appropriately due to cognitive overload and prioritization issues, such as delaying the checklist and failing to test the RIGHT magneto position), representing flawed problem-solving and decision-making."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no evidence of willful disregard of rules or regulations in the narrative."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.3,
+          "supporting_excerpts": [
+            "I circled outside of gliding range during my descent."
+          ],
+          "reasoning": "Misjudgment of spatial range and distance during the circling descent indicates a perceptual misorientation or misjudgment of the aircraft's position relative to the airport."
+        }
+      ],
+      "proposed_label": "Decision Error",
+      "confidence": 0.9
+    },
+    "token_usage": {
+      "prompt_tokens": 1317,
+      "candidates_tokens": 433,
+      "total_tokens": 1750
+    }
+  },
+  "ASRS_1050870": {
+    "report_id": "ASRS_1050870",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.9,
+          "supporting_excerpts": [
+            "I did not make the 80 knot call out",
+            "I became frustrated with my inability to find it. I spent several minutes pouring over the QRH looking for it."
+          ],
+          "reasoning": "The flight crew member suffered from procedural omissions (failing to make the standard 80-knot callout due to distraction and high acceleration) and attentional failures/memory lapses regarding the location of the RTO checklist in the QRH."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.2,
+          "supporting_excerpts": [
+            "The Captain announced the abort and a very aggressive stop was initiated."
+          ],
+          "reasoning": "The decision to abort was procedurally correct based on the Master Caution and hydraulic/anti-ice failure indications, representing a good decision rather than a flawed one."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no evidence of willful disregard of rules or regulations by either crew member."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.3,
+          "supporting_excerpts": [
+            "With the combination of the cold weather and a light aircraft; the acceleration rate was noticeably greater than normal."
+          ],
+          "reasoning": "The pilot experienced unusual environmental and aircraft performance perceptions regarding the rapid acceleration, but this did not constitute a primary perceptual misorientation causing the error."
+        }
+      ],
+      "proposed_label": "Skill-Based Error",
+      "confidence": 0.9
+    },
+    "token_usage": {
+      "prompt_tokens": 666,
+      "candidates_tokens": 432,
+      "total_tokens": 1098
+    }
+  },
+  "ASRS_1714599": {
+    "report_id": "ASRS_1714599",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There are no instances of slips, lapses, or inadvertent execution failures described in the narrative."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.4,
+          "supporting_excerpts": [
+            "I reacted by turning off the Master Light switch on the overhead panel."
+          ],
+          "reasoning": "The pilot initially turned off the Master Light switch rather than the correct electrical bus or equipment associated with the smoke, which represents a flawed intentional choice or procedural confusion during the emergency, though it was quickly followed by running the correct checklist."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no evidence of willful disregard for rules, regulations, or procedures."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "The pilot correctly perceived the visual smoke and hot smell, and sensory illusions are not indicated."
+        }
+      ],
+      "proposed_label": "Decision Error",
+      "confidence": 0.6
+    },
+    "token_usage": {
+      "prompt_tokens": 640,
+      "candidates_tokens": 333,
+      "total_tokens": 973
+    }
+  },
+  "ASRS_1192462": {
+    "report_id": "ASRS_1192462",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.2,
+          "supporting_excerpts": [
+            "It appears that the wrong airport ATIS printout was reviewed and announced when setting the Baro Altimeters."
+          ],
+          "reasoning": "The crew made a slip or lapse in executing a routine procedural task by referencing the wrong ATIS printout and incorrectly setting the barometric altimeter, which falls under skill-based errors (specifically a slip/lapse in execution)."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.8,
+          "supporting_excerpts": [
+            "It appears that the wrong airport ATIS printout was reviewed and announced when setting the Baro Altimeters."
+          ],
+          "reasoning": "While reviewing the wrong ATIS sheet and setting the altimeter incorrectly could be seen as an attentional lapse, selecting and utilizing incorrect information for operational setup represents a procedural/decision flaw in the intentional handling of flight deck data, though it leans heavily toward procedural execution. However, because it involves a faulty mental model regarding the correct altimeter setting, it is evaluated here as the primary operational error type leading to the EGPWS activation."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no evidence in the narrative that the crew willfully or intentionally disregarded rules, regulations, or standard operating procedures."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.4,
+          "supporting_excerpts": [
+            "At 1;000 FT AGL the First Officer read the appropriate checklist and noticed abnormal LDG MEMO text. Before he could say anything; our ND screens went full RED and EGPWS went off with full TERRAIN warning."
+          ],
+          "reasoning": "The crew experienced unexpected environmental/system feedback (EGPWS warning due to the altimeter discrepancy causing terrain proximity alerts), but this was induced by the incorrect altimeter setting rather than a primary visual or spatial illusion."
+        }
+      ],
+      "proposed_label": "Decision Error",
+      "confidence": 0.7
+    },
+    "token_usage": {
+      "prompt_tokens": 1035,
+      "candidates_tokens": 528,
+      "total_tokens": 1563
+    }
+  },
+  "ASRS_1673032": {
+    "report_id": "ASRS_1673032",
+    "success": true,
+    "gemini_response": {
+      "hfacs_evidence": [
+        {
+          "class": "Skill-Based Error",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There is no evidence of routine skill-based errors such as slips, lapses, or technique execution failures by the crew; the abrupt pitch down was caused by an external or system-induced erroneous glide slope capture."
+        },
+        {
+          "class": "Decision Error",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "The flight crew made appropriate and timely procedural decisions, such as disconnecting the autopilot and arresting the sink rate when the unexpected pitch-down occurred. No flawed intentional choices or plan failures are present."
+        },
+        {
+          "class": "Violation",
+          "evidence_score": 0.0,
+          "supporting_excerpts": [],
+          "reasoning": "There are no indications of willful disregard for rules, regulations, or standard operating procedures by the flight crew."
+        },
+        {
+          "class": "Perceptual Error",
+          "evidence_score": 0.2,
+          "supporting_excerpts": [
+            "Without warning the GS indication deflected instantly to full down."
+          ],
+          "reasoning": "The event was triggered by an erroneous instrument indication (glide slope deflection), which created a misleading perceptual input rather than an active human perceptual misorientation error, resulting in a low score."
+        }
+      ],
+      "proposed_label": "Skill-Based Error",
+      "confidence": 0.1
+    },
+    "token_usage": {
+      "prompt_tokens": 775,
+      "candidates_tokens": 371,
+      "total_tokens": 1146
+    }
+  }
+}
