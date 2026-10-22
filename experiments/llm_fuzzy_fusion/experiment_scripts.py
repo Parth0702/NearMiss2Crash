@@ -54,7 +54,7 @@ MAX_REQUESTS_PER_MIN = 15  # For rate limiting
 REQUEST_TIMEOUT = 120  # seconds per request
 MAX_TOTAL_TOKENS = 8000  # Daily quota warning threshold
 
-# System prompt for Gemini (same as smoke test)
+# System prompt for Gemini (updated to support Uncertain)
 SYSTEM_PROMPT = """You are an aviation safety analyst expert in HFACS (Human Factors Analysis and Classification System).
 Analyze the provided aviation incident narrative and provide structured evidence for all four HFACS-core classes.
 
@@ -95,8 +95,10 @@ Rules:
 - evidence_score must be a number 0.0 to 1.0
 - supporting_excerpts must be an array of strings (direct quotes from narrative)
 - reasoning must be a string
-- proposed_label must be exactly one of: Skill-Based Error, Decision Error, Violation, Perceptual Error
+- proposed_label must be exactly one of: Skill-Based Error, Decision Error, Violation, Perceptual Error, Uncertain
 - confidence must be a number 0.0 to 1.0
+- If all HFACS categories have insufficient evidence, propose "Uncertain" with confidence=0.0
+  and all evidence_scores=0.0
 - Do NOT include any other keys like "hfacs_analysis", "unsafe_acts", etc."""
 
 
@@ -115,6 +117,7 @@ def validate_response(response_json: Dict[str, Any]) -> Tuple[bool, str]:
             return False, f"'hfacs_evidence' must be a list of 4 items"
 
         required_classes = {"Skill-Based Error", "Decision Error", "Violation", "Perceptual Error"}
+        uncertain_allowed = True
         found_classes = set()
 
         for item in evidence:
@@ -124,9 +127,10 @@ def validate_response(response_json: Dict[str, Any]) -> Tuple[bool, str]:
             if "class" not in item:
                 return False, "Missing 'class' in evidence item"
             cls = item["class"]
-            if cls not in required_classes:
+            if cls not in required_classes and cls != "Uncertain":
                 return False, f"Invalid class: {cls}"
-            found_classes.add(cls)
+            if cls != "Uncertain":
+                found_classes.add(cls)
 
             if "evidence_score" not in item:
                 return False, f"Missing 'evidence_score' for {cls}"
@@ -145,16 +149,24 @@ def validate_response(response_json: Dict[str, Any]) -> Tuple[bool, str]:
             if not isinstance(item["reasoning"], str):
                 return False, f"'reasoning' for {cls} must be a string"
 
-        if found_classes != required_classes:
+        if found_classes != required_classes and not (len(found_classes) == 0 and "Uncertain" in [e["class"] for e in evidence]):
             return False, f"Missing classes. Found: {found_classes}"
 
         label = response_json["proposed_label"]
-        if label not in required_classes:
+        if label not in required_classes and label != "Uncertain":
             return False, f"Invalid proposed_label: {label}"
 
         conf = response_json["confidence"]
         if not isinstance(conf, (int, float)) or conf < 0.0 or conf > 1.0:
             return False, f"Invalid confidence: {conf}"
+
+        # If proposing Uncertain, enforce confidence=0.0 and all evidence_scores=0.0
+        if label == "Uncertain":
+            if conf != 0.0:
+                return False, f"Uncertain label must have confidence=0.0, got {conf}"
+            for e in evidence:
+                if e["class"] != "Uncertain" and e["evidence_score"] != 0.0:
+                    return False, f"Uncertain label but evidence_score={e['evidence_score']} for {e['class']}"
 
         return True, "Valid"
 
@@ -166,8 +178,8 @@ def load_data() -> pd.DataFrame:
     """Load and prepare ASRS data."""
     df = pd.read_csv(CRASH_DATA)
 
-    # Filter to fuzzy-labeled narratives (excluding Uncertain)
-    df_fuzzy = df[df['fuzzy_label'] != 'Uncertain'].copy()
+    # Use full dataset — Uncertain reports are eligible for sampling
+    df_fuzzy = df.copy()
 
     # Add derived features for sampling
     df_fuzzy['has_clever_evidence'] = df_fuzzy['dominance'] > 0.7
