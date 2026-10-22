@@ -1,0 +1,135 @@
+{
+  "model_a_crisp": {
+    "model_name": "Model_A_Crisp",
+    "model_path": "D:\\SC project\\experiments\\distilbert_extension\\models\\model_a_crisp_head.pt",
+    "predictions_path": "D:\\SC project\\experiments\\distilbert_extension\\model_a_crisp_predictions.csv",
+    "history": {
+      "train_loss": [
+        1.337127296712386,
+        1.3115228508155383,
+        1.3042953488714408
+      ],
+      "val_f1": [
+        0.21761449606967562,
+        0.22591250670960816,
+        0.2326575863161229
+      ],
+      "val_acc": [
+        0.36926605504587157,
+        0.3876146788990826,
+        0.4105504587155963
+      ]
+    },
+    "test_metrics": {
+      "accuracy": 0.36926605504587157,
+      "macro_f1": 0.21042713567839194,
+      "weighted_f1": 0.2920825457563045,
+      "precision": 0.18176130188291278,
+      "recall": 0.26595523790789677
+    },
+    "confusion_matrix": [
+      [
+        220,
+        83,
+        0,
+        0
+      ],
+      [
+        200,
+        102,
+        0,
+        0
+      ],
+      [
+        72,
+        64,
+        0,
+        0
+      ],
+      [
+        85,
+        46,
+        0,
+        0
+      ]
+    ],
+    "test_samples": 872,
+    "val_samples": 436,
+    "train_samples": 3052
+  },
+  "model_b_fuzzy": {
+    "model_name": "Model_B_Fuzzy",
+    "model_path": "D:\\SC project\\experiments\\distilbert_extension\\models\\model_b_fuzzy_head.pt",
+    "predictions_path": "D:\\SC project\\experiments\\distilbert_extension\\model_b_fuzzy_predictions.csv",
+    "history": {
+      "train_loss": [
+        1.338067246768289,
+        1.3060057662918183,
+        1.2969472472539205
+      ],
+      "val_f1": [
+        0.21041666666666664,
+        0.14557115749525618,
+        0.14134286412512218
+      ],
+      "val_acc": [
+        0.3875968992248062,
+        0.3798449612403101,
+        0.3772609819121447
+      ]
+    },
+    "test_metrics": {
+      "accuracy": 0.391304347826087,
+      "macro_f1": 0.21556208389004988,
+      "weighted_f1": 0.2986851566155562,
+      "precision": 0.19306842135798408,
+      "recall": 0.27516399529673863
+    },
+    "confusion_matrix": [
+      [
+        230,
+        56,
+        0,
+        0
+      ],
+      [
+        159,
+        67,
+        0,
+        0
+      ],
+      [
+        94,
+        38,
+        0,
+        0
+      ],
+      [
+        98,
+        17,
+        0,
+        0
+      ]
+    ],
+    "test_samples": 759,
+    "val_samples": 387,
+    "train_samples": 2664
+  },
+  "config": {
+    "BASE_CHECKPOINT": "distilbert-base-uncased",
+    "MAX_LENGTH": 128,
+    "BATCH_SIZE": 16,
+    "EPOCHS": 3,
+    "LEARNING_RATE": 2e-05,
+    "WEIGHT_DECAY": 0.01,
+    "WARMUP_RATIO": 0.1,
+    "RANDOM_SEED": 42,
+    "DEVICE": "cpu",
+    "HFACS_CLASSES": [
+      "Skill-Based Error",
+      "Decision Error",
+      "Violation",
+      "Perceptual Error"
+    ]
+  }
+}

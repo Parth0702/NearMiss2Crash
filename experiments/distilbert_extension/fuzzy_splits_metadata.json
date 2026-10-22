@@ -1,0 +1,24 @@
+{
+  "random_seed": 42,
+  "hfacs_classes": [
+    "Skill-Based Error",
+    "Decision Error",
+    "Violation",
+    "Perceptual Error"
+  ],
+  "train_total": 3526,
+  "train_labeled": 2664,
+  "val_total": 504,
+  "val_labeled": 387,
+  "test_total": 1008,
+  "test_labeled": 759,
+  "train_uncertain": 862,
+  "val_uncertain": 117,
+  "test_uncertain": 249,
+  "source_fuzzy_results": "D:\\SC project\\experiments\\fuzzy_asrs\\results\\fuzzy_full_results.csv",
+  "source_crisp_splits": {
+    "train": "D:\\SC project\\weak_labeling_results\\dataset_majority_train.csv",
+    "val": "D:\\SC project\\weak_labeling_results\\dataset_majority_validation.csv",
+    "test": "D:\\SC project\\weak_labeling_results\\dataset_majority_test.csv"
+  }
+}

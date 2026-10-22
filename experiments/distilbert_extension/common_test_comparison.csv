@@ -1,0 +1,17 @@
+model,true_label,fuzzy_label,crisp_pred,fuzzy_pred,crisp_correct,fuzzy_correct
+Model_A_Crisp,Skill-Based Error,Skill-Based Error,Skill-Based Error,Skill-Based Error,True,True
+Model_A_Crisp,Skill-Based Error,Skill-Based Error,Decision Error,Skill-Based Error,False,True
+Model_A_Crisp,Decision Error,Decision Error,Skill-Based Error,Decision Error,False,True
+Model_A_Crisp,Decision Error,Decision Error,Decision Error,Decision Error,True,True
+Model_A_Crisp,Violation,Violation,Skill-Based Error,Skill-Based Error,False,True
+Model_A_Crisp,Violation,Violation,Decision Error,Decision Error,False,True
+Model_A_Crisp,Perceptual Error,Perceptual Error,Skill-Based Error,Skill-Based Error,False,True
+Model_A_Crisp,Perceptual Error,Perceptual Error,Decision Error,Decision Error,False,True
+Model_B_Fuzzy,Skill-Based Error,Skill-Based Error,Skill-Based Error,Skill-Based Error,True,True
+Model_B_Fuzzy,Skill-Based Error,Skill-Based Error,Decision Error,Skill-Based Error,False,True
+Model_B_Fuzzy,Decision Error,Decision Error,Skill-Based Error,Decision Error,False,True
+Model_B_Fuzzy,Decision Error,Decision Error,Decision Error,Decision Error,True,True
+Model_B_Fuzzy,Violation,Violation,Skill-Based Error,Skill-Based Error,False,True
+Model_B_Fuzzy,Violation,Violation,Decision Error,Decision Error,False,True
+Model_B_Fuzzy,Perceptual Error,Perceptual Error,Skill-Based Error,Skill-Based Error,False,True
+Model_B_Fuzzy,Perceptual Error,Perceptual Error,Decision Error,Decision Error,False,True

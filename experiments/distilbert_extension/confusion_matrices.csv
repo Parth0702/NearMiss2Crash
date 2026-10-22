@@ -1,0 +1,33 @@
+model,true_label,pred_label,count
+Model_A_Crisp,Skill-Based Error,Skill-Based Error,220
+Model_A_Crisp,Skill-Based Error,Decision Error,83
+Model_A_Crisp,Skill-Based Error,Violation,0
+Model_A_Crisp,Skill-Based Error,Perceptual Error,0
+Model_A_Crisp,Decision Error,Skill-Based Error,200
+Model_A_Crisp,Decision Error,Decision Error,102
+Model_A_Crisp,Decision Error,Violation,0
+Model_A_Crisp,Decision Error,Perceptual Error,0
+Model_A_Crisp,Violation,Skill-Based Error,72
+Model_A_Crisp,Violation,Decision Error,64
+Model_A_Crisp,Violation,Violation,0
+Model_A_Crisp,Violation,Perceptual Error,0
+Model_A_Crisp,Perceptual Error,Skill-Based Error,85
+Model_A_Crisp,Perceptual Error,Decision Error,46
+Model_A_Crisp,Perceptual Error,Violation,0
+Model_A_Crisp,Perceptual Error,Perceptual Error,0
+Model_B_Fuzzy,Skill-Based Error,Skill-Based Error,230
+Model_B_Fuzzy,Skill-Based Error,Decision Error,56
+Model_B_Fuzzy,Skill-Based Error,Violation,0
+Model_B_Fuzzy,Skill-Based Error,Perceptual Error,0
+Model_B_Fuzzy,Decision Error,Skill-Based Error,159
+Model_B_Fuzzy,Decision Error,Decision Error,67
+Model_B_Fuzzy,Decision Error,Violation,0
+Model_B_Fuzzy,Decision Error,Perceptual Error,0
+Model_B_Fuzzy,Violation,Skill-Based Error,94
+Model_B_Fuzzy,Violation,Decision Error,38
+Model_B_Fuzzy,Violation,Violation,0
+Model_B_Fuzzy,Violation,Perceptual Error,0
+Model_B_Fuzzy,Perceptual Error,Skill-Based Error,98
+Model_B_Fuzzy,Perceptual Error,Decision Error,17
+Model_B_Fuzzy,Perceptual Error,Violation,0
+Model_B_Fuzzy,Perceptual Error,Perceptual Error,0

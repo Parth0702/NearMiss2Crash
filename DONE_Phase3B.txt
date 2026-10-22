@@ -1,0 +1,30 @@
+Phase 3B DistilBERT Crisp vs Fuzzy — FINAL STATUS
+
+COMPLETED: October 22, 2026
+
+All 12 audit tasks finished. All 8 verification assertions passed.
+Original discrepancies resolved. Metrics traceable to saved checkpoints.
+No models retrained. No NTSB experiments. Phase 4 not started.
+
+Verdict: VALID COMPARISON
+
+Artifacts generated (8 files):
+- PHASE_3B_FINAL_METRICS_AUDIT.md — Full audit report
+- PHASE_3B_COMMON_TEST_VALIDATION.md — Corrected validation report
+- PHASE_3B_DISTILBERT_REPORT.md — Corrected comparison report
+- common_test_metrics.json — Verified aggregate metrics
+- common_test_comparison.csv — 759-row per-sample comparison
+- distilbert_comparison_metrics.json — Original results (preserved untouched)
+- models/model_a_crisp_head.pt — Crisp checkpoint (preserved)
+- models/model_b_fuzzy_head.pt — Fuzzy checkpoint (preserved)
+
+Original discrepancies resolved:
+- ✅ Confusion matrix sums verified (Model A: 872, Model B: 759)
+- ✅ Per-class support counts match matrix row sums
+- ✅ Accuracy = diagonal/total confirmed for both models
+- ✅ 759 unique report_ids verified
+- ✅ Zero training leakage confirmed (4/4 checks = 0 overlap)
+- ✅ Crisp-fuzzy label agreement: 95.8% (727/759)
+- ✅ Original checkpoint metrics preserved: Model A 36.93%/872, Model B 39.13%/759
+
+FINAL VERDICT: VALID COMPARISON — Phase 3B evaluation is fully verified and ready for paper inclusion.

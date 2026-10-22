@@ -1,0 +1,26 @@
+Phase 3B DistilBERT Crisp vs Fuzzy — Complete
+
+All tasks from the original request have been completed:
+
+1. ✅ Trained Model A (crisp) and Model B (fuzzy) on frozen DistilBERT embeddings
+2. ✅ Verified checkpoints without retraining
+3. ✅ Identified common held-out test subset (759 shared samples)
+4. ✅ Evaluated both models on identical narratives with fuzzy reference labels
+5. ✅ Verified identical label mapping and no leakage
+6. ✅ Recalculated all metrics from saved predictions
+7. ✅ Asserted: matrices sum to 759, supports equal 759, accuracy = diag/total
+8. ✅ Identified root cause: failed script generated incorrect metrics
+9. ✅ Backed up original files before correction
+10. ✅ Regenerated metrics JSON and CSV from verified data
+11. ✅ Verified same test samples excluded from training/val for both models
+12. ✅ Documented all unresolved inconsistencies (none remaining)
+
+Output files:
+- PHASE_3B_FINAL_METRICS_AUDIT.md
+- PHASE_3B_COMMON_TEST_VALIDATION.md
+- PHASE_3B_DISTILBERT_REPORT.md
+- common_test_metrics.json
+- common_test_comparison.csv (759 rows)
+- distilbert_comparison_metrics.json (preserved)
+
+Verdict: VALID COMPARISON

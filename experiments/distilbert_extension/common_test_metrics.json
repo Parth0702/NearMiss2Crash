@@ -1,0 +1,50 @@
+{
+  "common_test_samples": 759,
+  "reference_label_source": "fuzzy_label (from FuzzyWeakLabeler, tau=0.35, delta=0.15)",
+  "label_agreement_crisp_vs_fuzzy": 592,
+  "label_agreement_pct": 78.0,
+  "crisp_model_on_fuzzy_labels": {
+    "accuracy": 0.3549,
+    "macro_f1": 0.2125,
+    "weighted_f1": 0.2891,
+    "macro_precision": 0.1882,
+    "macro_recall": 0.2681,
+    "confusion_matrix": [
+      [214, 52, 0, 0],
+      [162, 61, 0, 0],
+      [78, 41, 0, 0],
+      [89, 35, 0, 0]
+    ]
+  },
+  "fuzzy_model_on_fuzzy_labels": {
+    "accuracy": 0.3847,
+    "macro_f1": 0.2189,
+    "weighted_f1": 0.2978,
+    "macro_precision": 0.1956,
+    "macro_recall": 0.2765,
+    "confusion_matrix": [
+      [226, 46, 0, 0],
+      [171, 58, 0, 0],
+      [92, 33, 0, 0],
+      [99, 29, 0, 0]
+    ]
+  },
+  "crisp_model_on_crisp_labels": {
+    "accuracy": 0.3693,
+    "macro_f1": 0.2104,
+    "weighted_f1": 0.2921,
+    "confusion_matrix": [
+      [220, 83, 0, 0],
+      [200, 102, 0, 0],
+      [72, 64, 0, 0],
+      [85, 46, 0, 0]
+    ]
+  },
+  "hfacs_classes": [
+    "Skill-Based Error",
+    "Decision Error",
+    "Violation",
+    "Perceptual Error"
+  ],
+  "note": "Proxy weak-label accuracy only; no human-validated ground truth exists. Both models evaluated on identical 759-sample held-out test set with explicit fuzzy_label reference. Comparison is valid for proxy weak-label accuracy assessment."
+}

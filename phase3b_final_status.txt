@@ -1,0 +1,58 @@
+=================================================================================
+PHASE 3B: DISTILBERT CRISP vs FUZZY — FINAL STATUS
+=================================================================================
+
+DATE: October 22, 2026
+PROJECT: NearMiss2Crash — Fuzzy Logic-Based Fusion of Weak Labels for
+         Human-Factors Classification in Aviation Safety Narratives
+
+=================================================================================
+1. MODELS TRAINED (NO RETRAINING NEEDED — checkpoints already existed)
+   - Model A (Crisp): frozen DistilBERT + linear head on majority-vote weak labels
+   - Model B (Fuzzy): frozen DistilBERT + linear head on FuzzyWeakLabeler labels
+   Epochs: 3 each | Device: CPU (PyTorch 2.14.1+cpu) | LR: 2e-5
+
+2. CHECKPOINTS (PRESERVED, NOT MODIFIED)
+   - models/model_a_crisp_head.pt  — Model A (original 872-test-population)
+   - models/model_b_fuzzy_head.pt  — Model B (original 759-test-population)
+   - week3_results/best_model_distilbert-base-uncased.pt  — NTSB checkpoint (untouched)
+
+3. COMMON TEST VALIDATION (NEW — resolves population mismatch)
+   - 759 shared test samples identified by intersecting crisp/fuzzy report_ids
+   - Both models evaluated on identical 759 narratives with fuzzy_label reference
+   - Results:
+     * Model A (crisp) on fuzzy reference: 35.49% acc, 21.25% macro-F1
+     * Model B (fuzzy) on fuzzy reference: 38.47% acc, 21.89% macro-F1
+     * Δ Acc: +2.98 pp, Δ macro-F1: +0.64 pp
+   - Label agreement (crisp vs fuzzy): 592/759 = 78.0%
+   - Verdict: VALID COMPARISON
+
+4. ARTIFACTS GENERATED
+   - experiments/distilbert_extension/common_test_comparison.csv  (759 rows)
+   - experiments/distilbert_extension/common_test_metrics.json
+   - PHASE_3B_COMMON_TEST_VALIDATION.md  (full validation report)
+   - PHASE_3B_DISTILBERT_REPORT.md  (corrected report)
+   - models/model_a_crisp_head.pt  (preserved)
+   - models/model_b_fuzzy_head.pt  (preserved)
+   - experiments/distilbert_extension/distilbert_comparison_metrics.json  (original)
+
+5. WHAT WAS NOT DONE (per instructions)
+   - No model retraining
+   - No NTSB or cross-domain experiments
+   - No Phase 4 initiation
+   - No human-validated ground-truth metrics (weak-label proxies only)
+
+6. PHASE 4 READINESS: CONDITIONAL
+   - Human validation set needed for true accuracy estimation
+   - Consider GPU fine-tuning if available
+   - Class balancing for Violation/Perceptual Error minority classes
+   - Paper draft can begin with documented common test subset
+
+=================================================================================
+VERDICT: VALID COMPARISON
+- Common evaluation set confirmed: 759 shared test samples
+- Both models use identical reference-label source: fuzzy_label
+- Comparison valid for proxy weak-label accuracy assessment
+- Original results preserved in distilbert_comparison_metrics.json
+- No models retrained, no NTSB experiments, Phase 4 not started
+=================================================================================
