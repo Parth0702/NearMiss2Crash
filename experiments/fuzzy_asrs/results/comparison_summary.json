@@ -1,0 +1,16 @@
+{
+  "total_narratives": 38655,
+  "crisp_labeled": 21058,
+  "crisp_unlabeled": 17597,
+  "crisp_coverage_pct": 54.48,
+  "fuzzy_labeled": 18931,
+  "fuzzy_uncertain": 19724,
+  "fuzzy_coverage_pct": 48.97,
+  "both_labeled": 18931,
+  "agreement_count": 17861,
+  "agreement_pct": 94.35,
+  "disagreement_count": 1070,
+  "disagreement_pct": 5.65,
+  "crisp_unlabeled_to_fuzzy_labeled": 0,
+  "crisp_labeled_to_fuzzy_uncertain": 2127
+}

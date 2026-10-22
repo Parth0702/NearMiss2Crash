@@ -1,0 +1,7 @@
+crisp_label,Decision Error,Perceptual Error,Skill-Based Error,Uncertain,Violation,All
+Decision Error,13940,125,827,1941,73,16906
+Perceptual Error,1,575,14,67,2,659
+Skill-Based Error,11,0,2687,114,14,2826
+Unlabeled,0,0,0,17597,0,17597
+Violation,2,0,1,5,659,667
+All,13954,700,3529,19724,748,38655

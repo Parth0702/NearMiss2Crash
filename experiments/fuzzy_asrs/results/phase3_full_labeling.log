@@ -1,0 +1,33 @@
+2026-10-22 01:12:01,317 [INFO] ================================================================================
+2026-10-22 01:12:01,317 [INFO] PHASE 3: FULL-DATASET FUZZY WEAK LABELING
+2026-10-22 01:12:01,317 [INFO] ================================================================================
+2026-10-22 01:12:01,317 [INFO] Loading crisp baseline from D:\SC project\experiments\fuzzy_asrs\crisp_baseline_rows.csv
+2026-10-22 01:12:02,026 [INFO] Total narratives: 38,655
+2026-10-22 01:12:02,027 [INFO] Initializing FuzzyWeakLabeler (τ=0.35, δ=0.15)...
+2026-10-22 01:12:02,043 [INFO] Running fuzzy weak labeling on full dataset...
+2026-10-22 01:12:46,131 [INFO] Transform completed in 44.09s (877 rows/s)
+2026-10-22 01:12:46,132 [INFO] 
+--- OUTPUT VERIFICATION ---
+2026-10-22 01:12:46,132 [INFO] Output rows: 38,655 (expected 38,655)
+2026-10-22 01:12:46,132 [INFO] ✓ Row count preserved
+2026-10-22 01:12:46,143 [INFO] Duplicate report_ids: 0
+2026-10-22 01:12:46,143 [INFO] ✓ No duplicate report IDs
+2026-10-22 01:12:46,146 [INFO] Confidence range: [0.0000, 1.0000]
+2026-10-22 01:12:46,146 [INFO] ✓ Confidence values in [0, 1]
+2026-10-22 01:12:46,148 [INFO] Non-finite confidence values: 0
+2026-10-22 01:12:46,148 [INFO] ✓ All confidence values finite
+2026-10-22 01:12:46,158 [INFO] Non-Uncertain with zero confidence: 0
+2026-10-22 01:12:46,159 [INFO] ✓ No non-Uncertain predictions with zero confidence
+2026-10-22 01:12:46,159 [INFO] 
+--- FUZZY LABEL DISTRIBUTION ---
+2026-10-22 01:12:46,164 [INFO]   Uncertain                : 19,724 (51.03%)
+2026-10-22 01:12:46,164 [INFO]   Decision Error           : 13,954 (36.10%)
+2026-10-22 01:12:46,164 [INFO]   Skill-Based Error        :  3,529 ( 9.13%)
+2026-10-22 01:12:46,164 [INFO]   Violation                :    748 ( 1.94%)
+2026-10-22 01:12:46,164 [INFO]   Perceptual Error         :    700 ( 1.81%)
+2026-10-22 01:12:46,164 [INFO] 
+Saving results to D:\SC project\experiments\fuzzy_asrs\results\fuzzy_full_results.csv
+2026-10-22 01:12:47,110 [INFO] File size: 64.89 MB
+2026-10-22 01:12:47,110 [INFO] ================================================================================
+2026-10-22 01:12:47,110 [INFO] PHASE 3 FULL LABELING COMPLETE in 45.79s
+2026-10-22 01:12:47,110 [INFO] ================================================================================

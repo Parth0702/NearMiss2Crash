@@ -1,0 +1,59 @@
+[
+  {
+    "tau": 0.25,
+    "delta": 0.15,
+    "total": 38655,
+    "labeled": 18931,
+    "uncertain": 19724,
+    "coverage_pct": 48.97,
+    "abstention_pct": 51.03,
+    "both_labeled": 18931,
+    "agreement_count": 17861,
+    "agreement_pct": 94.35,
+    "distribution": {
+      "Uncertain": 19724,
+      "Decision Error": 13954,
+      "Skill-Based Error": 3529,
+      "Violation": 748,
+      "Perceptual Error": 700
+    }
+  },
+  {
+    "tau": 0.35,
+    "delta": 0.15,
+    "total": 38655,
+    "labeled": 18931,
+    "uncertain": 19724,
+    "coverage_pct": 48.97,
+    "abstention_pct": 51.03,
+    "both_labeled": 18931,
+    "agreement_count": 17861,
+    "agreement_pct": 94.35,
+    "distribution": {
+      "Uncertain": 19724,
+      "Decision Error": 13954,
+      "Skill-Based Error": 3529,
+      "Violation": 748,
+      "Perceptual Error": 700
+    }
+  },
+  {
+    "tau": 0.5,
+    "delta": 0.15,
+    "total": 38655,
+    "labeled": 18931,
+    "uncertain": 19724,
+    "coverage_pct": 48.97,
+    "abstention_pct": 51.03,
+    "both_labeled": 18931,
+    "agreement_count": 17861,
+    "agreement_pct": 94.35,
+    "distribution": {
+      "Uncertain": 19724,
+      "Decision Error": 13954,
+      "Skill-Based Error": 3529,
+      "Violation": 748,
+      "Perceptual Error": 700
+    }
+  }
+]
