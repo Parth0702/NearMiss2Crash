@@ -249,6 +249,13 @@ def create_sampling_strata(df: pd.DataFrame) -> Dict[str, List[str]]:
         random_state=SEED
     )['report_id'].tolist()
 
+    # Stratification 7: Uncertain reports (R0, R3 ties, R4 low dominance)
+    uncertain = df[df['fuzzy_label'] == 'Uncertain'].copy()
+    strata['uncertain_reports'] = uncertain.sample(
+        min(len(uncertain), N_TOTAL // 8),
+        random_state=SEED
+    )['report_id'].tolist()
+
     return strata
 
 
@@ -261,7 +268,8 @@ def select_reports(strata: Dict[str, List[str]], n: int = N_TOTAL) -> List[str]:
         'exact_keyword_ties': max(1, n // 8),
         'low_dominance_decisions': max(1, n // 8),
         'no_keyword_evidence': max(1, n // 8),
-        'crisp_fuzzy_disagreements': max(1, n // 4)  # Fill remaining
+        'crisp_fuzzy_disagreements': max(1, n // 4),  # Fill remaining
+        'uncertain_reports': max(1, n // 8)  # NEW: Include Uncertain stratum
     }
 
     for stratum, indices in strata.items():
