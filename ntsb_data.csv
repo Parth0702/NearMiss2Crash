@@ -1,6 +1,0 @@
-report_id,source,text,label
-N1,NTSB,"The pilot failed to complete the pre-landing checklist, a habitual oversight given his high experience level, resulting in gear-up landing.",Skill-Based Error
-N2,NTSB,"The pilot elected to continue flight into deteriorating weather rather than diverting, despite available alternate airports.",Decision Error
-N3,NTSB,"The pilot operated the aircraft with a known inoperative instrument in violation of company policy.",Violation
-N4,NTSB,"The pilot misjudged altitude during a night approach over featureless terrain, resulting in controlled flight into terrain.",Perceptual Error
-N5,NTSB,"The first officer missed a critical checklist step during a rushed turnaround, consistent with training but not fully internalized as habit.",Skill-Based Error
